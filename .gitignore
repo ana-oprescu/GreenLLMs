@@ -1,0 +1,4 @@
+# ignore iPython cache files
+.ipynb_checkpoints
+.DS_Store
+
