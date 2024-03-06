@@ -1,2 +1,3 @@
 # MasterThesis
-This repository contains the code for my master thesis. In the folder 'overleaf' I synchronised my overleaf project.
+This repository contains the code for my master thesis.
+More info follows at the end of the project.
