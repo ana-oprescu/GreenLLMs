@@ -1,0 +1,55 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=5_Pruning
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=02:45:00
+#SBATCH --output=./job_output/pruning/Ear_Exp5_%A.out
+#SBATCH --ear=on
+#SBATCH --ear-policy=monitoring
+#SBATCH --ear-user-db=ear/pruning/Exp5
+
+module purge
+module load 2023
+module load ear
+
+# Activate conda environment
+source activate thesis
+
+##### Generate samples #####
+
+for idx in {1..6}
+do
+  srun python StarCoder_pruning.py --model_name 3b --max_tokens 128 --idx=$idx
+done
+
+for idx in {1..6}
+do
+  srun python StarCoder_pruning.py --model_name 7b --max_tokens 128 --idx=$idx
+done
+
+for idx in {1..6}
+do
+  srun python PhiDecoderLens.py --idx=$idx
+done
+
+##### Sanitize #####
+# echo -e "\nSamples generated.\nProceeding to sanitizing..\n"
+
+# for idx in {1..6}
+# do
+#   srun python evalplus/sanitize.py --samples samples_decode/samples_3b_128_$idx.jsonl
+#   srun python evalplus/sanitize.py --samples samples_decode/samples_7b_128_$idx.jsonl
+# done
+
+##### Evaluation #####
+# echo -e "\nSamples santized.\nProceeding to evaluation..\n"
+
+# for idx in {1..6}
+# do
+#   echo -e "\nEvaluating StarCoder2, 256 tokens, $idx layers removed.\n"
+#   srun evalplus.evaluate --dataset humaneval --samples samples_decode/samples_3b_128_$idx-sanitized.jsonl
+#   srun evalplus.evaluate --dataset humaneval --samples samples_decode/samples_7b_128_$idx-sanitized.jsonl
+# done

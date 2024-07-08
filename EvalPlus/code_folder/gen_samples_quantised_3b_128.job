@@ -1,0 +1,79 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=Quan_3B
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=06:15:00
+#SBATCH --output=./job_output/EAR_GenSamples_3B_quantised_128_%A.out
+#SBATCH --ear=on
+#SBATCH --ear-policy=monitoring
+#SBATCH --ear-user-db=ear/3b_128_quantised
+
+module purge
+module load 2023
+module load ear
+
+# Activate conda environment
+source activate thesis
+
+echo -e "19-06-2024.\Deploying EAR module for 3B, saving in EAR folder.\nJob ID $SLURM_JOB_ID \n"
+
+##### Generate samples #####
+# 3B 
+echo -e "Generate samples for 3b quantised, 128 tokens..."
+# srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 128 --quantisation 4bit # +/- 900 seconds
+# srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 128 --quantisation 8bit # +/- 3314 seconds
+
+# +/- 4500 seconds
+for idx in {1..5}
+do
+  echo -e "[4bit] - Iteration $idx out of 5\n"
+  srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 128 --quantisation 4bit
+done
+
+# +/- 17000 seconds
+for idx in {1..5}
+do
+  echo -e "[8bit] - Iteration $idx out of 5\n"
+  srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 128 --quantisation 8bit
+done
+
+##### Sanitize #####
+# echo -e "\nSamples generated.\nProceeding to sanitizing..\n"
+
+# 3B // 4 bit
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_3b_128_4bit.jsonl
+
+# 3B // 8 bit
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_3b_128_8bit.jsonl
+
+# 7B // 4 bit
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_128_4bit.jsonl
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_256_4bit.jsonl
+
+# 7B // 8 bit
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_128_8bit.jsonl
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_256_8bit.jsonl
+
+##### Evaluation #####
+# echo -e "\nSamples santized.\nProceeding to evaluation..\n"
+
+# 3B
+# echo -e "\nEvaluating 7b, 128 tokens. First 4bit and then 8bit.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+
+# echo -e "\nEvaluating 3b, 256 tokens. First 4bit and then 8bit.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_256_4bit-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_256_8bit-sanitized.jsonl
+
+# 7B
+# echo -e "\nEvaluating 7b, 128 tokens. First 4bit and then 8bit.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_128_4bit-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_128_8bit-sanitized.jsonl
+
+# echo -e "\nEvaluating 7b, 256 tokens. First 4bit and then 8bit.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_256_4bit-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_256_8bit-sanitized.jsonl

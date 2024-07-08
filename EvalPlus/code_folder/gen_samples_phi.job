@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=Gen_samples_Phi
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=02:15:00
+#SBATCH --output=./job_output/GenSamples_Phi_%A.out
+#SBATCH --ear=on
+#SBATCH --ear-policy=monitoring
+#SBATCH --ear-user-db=ear/Phi2_128
+
+module purge
+module load 2023
+module load ear
+
+# Activate conda environment
+source activate thesis
+
+##### Generate samples #####
+# 3B // expected time +/- 1h for both
+echo -e "\nGenerate samples for Phi2...\n"
+
+for idx in {1..5}
+do
+  echo -e "128 tokens - Iteration $idx out of 5\n"    
+  srun python -u GenerateSamples_Phi.py --model_name Phi2 --max_tokens 128 # +/- 1500 seconds
+done
+# srun python -u GenerateSamples_Phi.py --model_name Phi2 --max_tokens 256 # +/- 2800 seconds
+
+##### Sanitize #####
+# echo -e "\nSamples generated.\nProceeding to sanitizing..\n"
+
+# 3B
+# srun python evalplus/sanitize.py --samples samples/samples_Phi2_128.jsonl
+# srun python evalplus/sanitize.py --samples samples/samples_Phi2_256.jsonl
+
+##### Evaluation #####
+# echo -e "\nSamples santized.\nProceeding to evaluation..\n"
+
+# 3B
+# echo -e "\nEvaluating Phi2, 128 tokens. First sanitized then raw.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_Phi2_128-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_Phi2_128.jsonl
+# echo -e "\nEvaluating Phi2, 256 tokens. First sanitized then raw.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_Phi2_256-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_Phi2_256.jsonl

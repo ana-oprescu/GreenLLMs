@@ -1,0 +1,87 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=Quan_samples_3B
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=00:20:00
+#SBATCH --output=./job_output/GenSamples_3B_quantised_GPU_%A.out
+
+module purge
+module load 2023
+
+# Activate conda environment
+source activate thesis
+
+##### Generate samples #####
+# 3B // expected time +/- 1h for both
+echo -e "Generate samples for 3b quantised...\n"
+srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 128 --quantisation 4bit # +/- 900 seconds
+srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 128 --quantisation 8bit # +/- 3314 seconds
+
+# srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 256 --quantisation 4bit # +/- 1804 seconds
+# srun python -u GenerateSamples_quantised.py --model_name 3b --max_tokens 256 --quantisation 8bit # +/- 6528 seconds
+
+# 7B // expected time +/- 1h for both
+# echo -e "\nGenerate samples for 7b quantised...\n"
+# srun python -u GenerateSamples_quantised.py --model_name 7b --max_tokens 128 --quantisation 4bit # +/- 900 seconds
+# srun python -u GenerateSamples_quantised.py --model_name 7b --max_tokens 128 --quantisation 8bit # +/- 3314 seconds
+
+# srun python -u GenerateSamples_quantised.py --model_name 7b --max_tokens 256 --quantisation 4bit # +/- 1804 seconds
+# srun python -u GenerateSamples_quantised.py --model_name 7b --max_tokens 256 --quantisation 8bit # +/- 6528 seconds
+
+# 15B  // expected time +/- YYY for both
+# echo -e "\nGenerate samples for 15b...\n"
+# srun python -u GenerateSamplesv2.py --model_name 15b --max_tokens 128 # +/- 1 seconds
+# srun python -u GenerateSamplesv2.py --model_name 15b --max_tokens 256 # +/- XXX seconds
+
+##### Sanitize #####
+echo -e "\nSamples generated.\nProceeding to sanitizing..\n"
+
+# 3B // 4 bit
+srun python evalplus/sanitize.py --samples samples_quantised/samples_3b_128_4bit.jsonl
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_3b_256_4bit.jsonl
+
+# 3B // 8 bit
+srun python evalplus/sanitize.py --samples samples_quantised/samples_3b_128_8bit.jsonl
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_3b_256_8bit.jsonl
+
+# 7B // 4 bit
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_128_4bit.jsonl
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_256_4bit.jsonl
+
+# 7B // 8 bit
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_128_8bit.jsonl
+# srun python evalplus/sanitize.py --samples samples_quantised/samples_7b_256_8bit.jsonl
+
+# 15B
+# srun python evalplus/sanitize.py --samples samples/samples_15b_128.jsonl
+# srun python evalplus/sanitize.py --samples samples/samples_15b_256.jsonl
+
+##### Evaluation #####
+echo -e "\nSamples santized.\nProceeding to evaluation..\n"
+
+# 3B
+echo -e "\nEvaluating 3b, 128 tokens. First 4bit and then 8bit.\n"
+srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+
+# echo -e "\nEvaluating 3b, 256 tokens. First 4bit and then 8bit.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_256_4bit-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_3b_256_8bit-sanitized.jsonl
+
+# 7B
+# echo -e "\nEvaluating 7b, 128 tokens. First 4bit and then 8bit.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_128_4bit-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_128_8bit-sanitized.jsonl
+
+# echo -e "\nEvaluating 7b, 256 tokens. First 4bit and then 8bit.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_256_4bit-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples_quantised/samples_7b_256_8bit-sanitized.jsonl
+
+# 15B
+# echo -e "\nEvaluating 15b, 128 tokens\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_15b_128-sanitized.jsonl
+#echo -e "\nEvaluating 15b, 256 tokens\n"
+#srun evalplus.evaluate --dataset humaneval --samples samples/samples_15b_256-sanitized.jsonl

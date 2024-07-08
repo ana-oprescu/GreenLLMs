@@ -1,0 +1,91 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=7B_five_samples
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=05:11:00
+#SBATCH --output=./job_output/GenSamples_7B_Runtime_%A.out
+#SBATCH --ear=on
+#SBATCH --ear-policy=monitoring
+#SBATCH --ear-user-db=test
+#SBATCH --ear-user-db=ear/StarCoder_fivefold
+
+module purge
+module load 2023
+module load ear
+
+# Activate conda environments
+source activate thesis
+
+##### Generate samples #####
+# 3B 
+# echo -e "\nGenerate samples for 3b...\n"
+for idx in {1..5}
+do
+  echo -e "128 tokens - Iteration $idx out of 5\n"
+  srun python GenerateSamplesv2.py --model_name 3b --max_tokens 128
+  # srun likwid python GenerateSamplesv2.py --model_name 3b --max_tokens 128
+  # expected time 500s per iteration, 2500 total
+done
+
+for idx in {1..5}
+do
+  echo -e "256 tokens - Iteration $idx out of 5\n"
+  srun python GenerateSamplesv2.py --model_name 3b --max_tokens 256
+    # expected time 1000s per iteration, 5000 total
+done
+
+# 7B // expected time +/- 1h for both
+# echo -e "\nGenerate samples for 7b...\n"
+# srun python -u GenerateSamplesv2.py --model_name 7b --max_tokens 128 # +/- 1200 seconds
+# srun python -u GenerateSamplesv2.py --model_name 7b --max_tokens 256 # +/- 2300 seconds
+
+for idx in {1..5}
+do
+  echo -e "128 tokens - Iteration $idx out of 5\n"
+  srun python GenerateSamplesv2.py --model_name 7b --max_tokens 128
+  # expected time 1200s per iteration, 6000 total
+done
+
+for idx in {1..5}
+do
+  echo -e "256 tokens - Iteration $idx out of 5\n"
+  srun python GenerateSamplesv2.py --model_name 7b --max_tokens 256
+    # expected time 2300s per iteration, 12000 total
+done
+
+##### Sanitize #####
+# echo -e "\nSamples generated.\nProceeding to sanitizing..\n"
+
+# 3B
+srun python evalplus/sanitize.py --samples samples/samples_3b_128.jsonl
+# srun python evalplus/sanitize.py --samples samples/samples_3b_256.jsonl
+
+# 7B
+# srun python evalplus/sanitize.py --samples samples/samples_7b_128.jsonl
+# srun python evalplus/sanitize.py --samples samples/samples_7b_256.jsonl
+
+# 15B
+# srun python evalplus/sanitize.py --samples samples/samples_15b_128.jsonl
+# srun python evalplus/sanitize.py --samples samples/samples_15b_256.jsonl
+
+##### Evaluation #####
+# echo -e "\nSamples santized.\nProceeding to evaluation..\n"
+
+# 3B
+# echo -e "\nEvaluating 3b, 128 tokens and then 256 tokens."
+srun evalplus.evaluate --dataset humaneval --samples samples/samples_3b_128-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_3b_256-sanitized.jsonl
+
+# 7B
+# echo -e "\nEvaluating 7b, 128 tokens. First sanitized then raw.\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_7b_128-sanitized.jsonl
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_7b_256-sanitized.jsonl
+
+# 15B
+# echo -e "\nEvaluating 15b, 128 tokens\n"
+# srun evalplus.evaluate --dataset humaneval --samples samples/samples_15b_128-sanitized.jsonl
+#echo -e "\nEvaluating 15b, 256 tokens\n"
+#srun evalplus.evaluate --dataset humaneval --samples samples/samples_15b_256-sanitized.jsonl
