@@ -15,7 +15,7 @@ module load Anaconda3/2023.07-2
 cd ../
 
 echo -e "\n\nStarting to install conda environment..."
-conda env create -f job_files/conda_gpu.yml
+conda env create -f conda_gpu.yml
 
 echo -e "\n\nActivating conda environment..."
 source activate thesis
