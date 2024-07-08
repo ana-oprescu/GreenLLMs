@@ -1,0 +1,164 @@
+{"task_id": "HumanEval/0", "solution": "from typing import List"}
+{"task_id": "HumanEval/1", "solution": "from typing import List"}
+{"task_id": "HumanEval/2", "solution": ""}
+{"task_id": "HumanEval/3", "solution": "from typing import List"}
+{"task_id": "HumanEval/4", "solution": "from typing import List"}
+{"task_id": "HumanEval/5", "solution": "from typing import List"}
+{"task_id": "HumanEval/6", "solution": "from typing import List"}
+{"task_id": "HumanEval/7", "solution": "from typing import List"}
+{"task_id": "HumanEval/8", "solution": "from typing import List, Tuple"}
+{"task_id": "HumanEval/9", "solution": "from typing import List, Tuple"}
+{"task_id": "HumanEval/10", "solution": ""}
+{"task_id": "HumanEval/11", "solution": "from typing import List"}
+{"task_id": "HumanEval/12", "solution": "from typing import List, Optional"}
+{"task_id": "HumanEval/13", "solution": ""}
+{"task_id": "HumanEval/14", "solution": "from typing import List"}
+{"task_id": "HumanEval/15", "solution": "def string_sequence(n: int) -> str:\n    \"\"\" Return a string containing space-delimited numbers starting from 0 upto n inclusive.\n    >>> string_sequence(0)\n    '0'\n    >>> string_sequence(5)\n    '0 1 2 3 4 5'\n    \"\"\"\n    return''.join([str(i) for i in range(n)])"}
+{"task_id": "HumanEval/16", "solution": ""}
+{"task_id": "HumanEval/17", "solution": "from typing import List"}
+{"task_id": "HumanEval/18", "solution": "def how_many_times(string: str,substring: str) -> int:\n    \"\"\"Find how many times a given substring can be found in the original string. Count overlaping cases.\n    >>> how_many_times('', 'a')\n    0\n    >>> how_many_times('a', 'a')\n    1\n    \"\"\"\n    how_many = 0\n    for i in range(len(string)):\n        if string[i:i+len(substring)] == substring: how_many += 1\n    return how_many"}
+{"task_id": "HumanEval/19", "solution": "from typing import List"}
+{"task_id": "HumanEval/20", "solution": "from typing import List, Tuple"}
+{"task_id": "HumanEval/21", "solution": "from typing import List"}
+{"task_id": "HumanEval/22", "solution": "from typing import List, Any"}
+{"task_id": "HumanEval/23", "solution": ""}
+{"task_id": "HumanEval/24", "solution": ""}
+{"task_id": "HumanEval/25", "solution": "from typing import List"}
+{"task_id": "HumanEval/26", "solution": "from typing import List"}
+{"task_id": "HumanEval/27", "solution": ""}
+{"task_id": "HumanEval/28", "solution": "from typing import List"}
+{"task_id": "HumanEval/29", "solution": "from typing import List"}
+{"task_id": "HumanEval/30", "solution": "def get_positive(l):\n    return [item for item in l if item > 0]"}
+{"task_id": "HumanEval/31", "solution": ""}
+{"task_id": "HumanEval/32", "solution": "import math"}
+{"task_id": "HumanEval/33", "solution": ""}
+{"task_id": "HumanEval/34", "solution": "def unique(l):\n    \"\"\"Return sorted unique elements in a list\n    >>> unique([5, 3, 5, 2, 3])\n    [2, 3, 5]\n    \"\"\"\n    unique_elements = []\n    for element in l:\n        if element not in unique_elements:\n            unique_elements.append(element)\n    unique_elements.sort()\n    return unique_elements"}
+{"task_id": "HumanEval/35", "solution": "def max_element(l: list):\n    \"\"\"Return maximum element in the list.\n    >>> max_element([1, 2, 3])\n    3\n    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    123\n    \"\"\"\n    max_so_far = l[0]\n    for i in l[1:]:\n        if i > max_so_far:max_so_far = i\n    return max_so_far"}
+{"task_id": "HumanEval/36", "solution": ""}
+{"task_id": "HumanEval/37", "solution": ""}
+{"task_id": "HumanEval/38", "solution": ""}
+{"task_id": "HumanEval/39", "solution": ""}
+{"task_id": "HumanEval/40", "solution": ""}
+{"task_id": "HumanEval/41", "solution": ""}
+{"task_id": "HumanEval/42", "solution": "def incr_list(l: list):\n    \"\"\"Return list with elements incremented by 1.\n    >>> incr_list([1, 2, 3])\n    [2, 3, 4]\n    \"\"\"\n    return [x + 1 for x in l]"}
+{"task_id": "HumanEval/43", "solution": ""}
+{"task_id": "HumanEval/44", "solution": ""}
+{"task_id": "HumanEval/45", "solution": "def triangle_area(a, h):\n    \"\"\"Given length of a side and high return area for a triangle.\n    >>> triangle_area(5, 3)\n    7.5\n    \"\"\"\n    return a * h / 2"}
+{"task_id": "HumanEval/46", "solution": ""}
+{"task_id": "HumanEval/47", "solution": ""}
+{"task_id": "HumanEval/48", "solution": "def is_palindrome(text: str):\n    \"\"\"\n    Check if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('z')\n    False\n    \"\"\"\n    text = text.lower()\n    text = text.replace(' ', '')\n    return text == text[ :: -1 ]"}
+{"task_id": "HumanEval/49", "solution": "def modp(n: int, p: int):\n    \"\"\"Return 2^n mod p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    \"\"\"\n    return pow(2, n, p)"}
+{"task_id": "HumanEval/50", "solution": ""}
+{"task_id": "HumanEval/51", "solution": ""}
+{"task_id": "HumanEval/52", "solution": "def below_threshold( l: list, t: int ):\n    for item in l:\n        if item < t:\n            return True\n        else:\n            return False"}
+{"task_id": "HumanEval/53", "solution": ""}
+{"task_id": "HumanEval/54", "solution": ""}
+{"task_id": "HumanEval/55", "solution": "def fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n    if n < 2:\n        return n\n    else:\n        return fib(n - 1)+ fib(n - 2)"}
+{"task_id": "HumanEval/56", "solution": ""}
+{"task_id": "HumanEval/57", "solution": ""}
+{"task_id": "HumanEval/58", "solution": ""}
+{"task_id": "HumanEval/59", "solution": ""}
+{"task_id": "HumanEval/60", "solution": "def sum_to_n(n: int):\n    \"\"\"sum_to_n is a function that sums numbers from 1 to n.\n    >>> sum_to_n(30)\n    465\n    >>> sum_to_n(100)\n    5050\n    \"\"\"\n    return n * (n + 1) / 2"}
+{"task_id": "HumanEval/61", "solution": ""}
+{"task_id": "HumanEval/62", "solution": "def derivative(xs: list):\n    \"\"\" xs represent coefficients of a polynomial.\n    xs[0] + xs[1] * x + xs[2] * x^2 +....\n     Return derivative of this polynomial in the same form.\n    >>> derivative([3, 0, 2, 4, 5])\n    [0, 2, 8, 20]\n    \"\"\"\n    return [i * j for i in range(len(xs)) for j in range(len(xs))]"}
+{"task_id": "HumanEval/63", "solution": ""}
+{"task_id": "HumanEval/64", "solution": "FIX = \"\"\"\nAdd more test cases.\n\"\"\""}
+{"task_id": "HumanEval/65", "solution": ""}
+{"task_id": "HumanEval/66", "solution": ""}
+{"task_id": "HumanEval/67", "solution": ""}
+{"task_id": "HumanEval/68", "solution": ""}
+{"task_id": "HumanEval/69", "solution": ""}
+{"task_id": "HumanEval/70", "solution": ""}
+{"task_id": "HumanEval/71", "solution": ""}
+{"task_id": "HumanEval/72", "solution": ""}
+{"task_id": "HumanEval/73", "solution": ""}
+{"task_id": "HumanEval/74", "solution": ""}
+{"task_id": "HumanEval/75", "solution": ""}
+{"task_id": "HumanEval/76", "solution": ""}
+{"task_id": "HumanEval/77", "solution": "def iscube(a):\n    '''\n    Write a function that takes an integer a and returns True \n    if this ingeger is a cube of some integer number.\n    Note: you may assume the input is always valid.\n    Examples:\n    is cube(1) ==> True\n    is cube(2) ==> False\n    is cube(-1) ==> True\n    is cube(64) ==> True\n    is cube(0) ==> True\n    is cube(180) ==> False\n    '''\n    cube = a ** 3\n    if cube == a:\n        return True\n    else:\n        return False"}
+{"task_id": "HumanEval/78", "solution": ""}
+{"task_id": "HumanEval/79", "solution": ""}
+{"task_id": "HumanEval/80", "solution": ""}
+{"task_id": "HumanEval/81", "solution": ""}
+{"task_id": "HumanEval/82", "solution": "def prime_length(string):\n    \"\"\"Write a function that takes a string and returns True if the string length is a prime number or False otherwise\"\"\"\n    return prime(len(string))"}
+{"task_id": "HumanEval/83", "solution": ""}
+{"task_id": "HumanEval/84", "solution": ""}
+{"task_id": "HumanEval/85", "solution": ""}
+{"task_id": "HumanEval/86", "solution": ""}
+{"task_id": "HumanEval/87", "solution": ""}
+{"task_id": "HumanEval/88", "solution": ""}
+{"task_id": "HumanEval/89", "solution": ""}
+{"task_id": "HumanEval/90", "solution": ""}
+{"task_id": "HumanEval/91", "solution": ""}
+{"task_id": "HumanEval/92", "solution": ""}
+{"task_id": "HumanEval/93", "solution": ""}
+{"task_id": "HumanEval/94", "solution": ""}
+{"task_id": "HumanEval/95", "solution": ""}
+{"task_id": "HumanEval/96", "solution": "def count_up_to(n):\n    \"\"\"\n    \"\"\"\n    prime_list = []\n    for i in range(2, n+1):\n        if i > 1:\n            for j in range(2, i):\n                if i % j == 0:\n                    break\n            else:\n                prime_list.append(i)\n    return prime_list"}
+{"task_id": "HumanEval/97", "solution": ""}
+{"task_id": "HumanEval/98", "solution": ""}
+{"task_id": "HumanEval/99", "solution": "def closest_integer(value):\n    value = float(value)\n    value = value - value % 1\n    if value % 1 ==0:\n        return value\n    else:\n        return value + 1 if value <0 else value - 1"}
+{"task_id": "HumanEval/100", "solution": ""}
+{"task_id": "HumanEval/101", "solution": "def words_string(s):\n    return s.split(\", \")"}
+{"task_id": "HumanEval/102", "solution": "def choose_num(x, y):\n    \"\"\"This function takes two positive numbers x and y and returns the\n    biggest even integer number that is in the range [x, y] inclusive. If there's no such number, then the function should return -1.\n\n    For example:\n    choose_num(12, 15) = 14\n    choose_num(13, 12) = -1\n    \"\"\"\n    if x %2 == 0 and y %2 == 0:\n        return y"}
+{"task_id": "HumanEval/103", "solution": ""}
+{"task_id": "HumanEval/104", "solution": ""}
+{"task_id": "HumanEval/105", "solution": ""}
+{"task_id": "HumanEval/106", "solution": ""}
+{"task_id": "HumanEval/107", "solution": ""}
+{"task_id": "HumanEval/108", "solution": ""}
+{"task_id": "HumanEval/109", "solution": ""}
+{"task_id": "HumanEval/110", "solution": ""}
+{"task_id": "HumanEval/111", "solution": ""}
+{"task_id": "HumanEval/112", "solution": ""}
+{"task_id": "HumanEval/113", "solution": ""}
+{"task_id": "HumanEval/114", "solution": ""}
+{"task_id": "HumanEval/115", "solution": "import math"}
+{"task_id": "HumanEval/116", "solution": ""}
+{"task_id": "HumanEval/117", "solution": ""}
+{"task_id": "HumanEval/118", "solution": ""}
+{"task_id": "HumanEval/119", "solution": ""}
+{"task_id": "HumanEval/120", "solution": ""}
+{"task_id": "HumanEval/121", "solution": ""}
+{"task_id": "HumanEval/122", "solution": ""}
+{"task_id": "HumanEval/123", "solution": ""}
+{"task_id": "HumanEval/124", "solution": ""}
+{"task_id": "HumanEval/125", "solution": ""}
+{"task_id": "HumanEval/126", "solution": ""}
+{"task_id": "HumanEval/127", "solution": ""}
+{"task_id": "HumanEval/128", "solution": "def prod_signs(arr):\n    \"\"\"\n    You are given an array arr of integers and you need to return\n    sum of magnitudes of integers multiplied by product of all signs\n    of each number in the array, represented by 1, -1 or 0.\n    Note: return None for empty arr.\n\n    Example:\n    >>> prod_signs([1, 2, 2, -4]) == -9\n    >>> prod_signs([0, 1]) == 0\n    >>> prod_signs([]) == None\n    \"\"\"\n    if not arr:\n        return None"}
+{"task_id": "HumanEval/129", "solution": ""}
+{"task_id": "HumanEval/130", "solution": ""}
+{"task_id": "HumanEval/131", "solution": ""}
+{"task_id": "HumanEval/132", "solution": ""}
+{"task_id": "HumanEval/133", "solution": ""}
+{"task_id": "HumanEval/134", "solution": ""}
+{"task_id": "HumanEval/135", "solution": ""}
+{"task_id": "HumanEval/136", "solution": ""}
+{"task_id": "HumanEval/137", "solution": ""}
+{"task_id": "HumanEval/138", "solution": "def is_equal_to_sum_even(n):\n    \"\"\"Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers\"\"\"\n    return n % 2 ==0 and n % 4 ==0 and n % 6 ==0 and n % 8 ==0 and n % 10 ==0 and n % 12 ==0 and n % 14 ==0 and n % 16 ==0 and n % 18 ==0 and n % 20 ==0 and n % 22 ==0 and n % 24 ==0"}
+{"task_id": "HumanEval/139", "solution": ""}
+{"task_id": "HumanEval/140", "solution": ""}
+{"task_id": "HumanEval/141", "solution": ""}
+{"task_id": "HumanEval/142", "solution": ""}
+{"task_id": "HumanEval/143", "solution": ""}
+{"task_id": "HumanEval/144", "solution": ""}
+{"task_id": "HumanEval/145", "solution": "def order_by_points( nums ):\n    def points( num ):\n        return sum( map( lambda x: int( x ), str( num ) ) )\n    return sorted( nums ) if not nums else sorted( nums ) \\\n        if not nums else sorted( nums ) \\\n        if not nums else sorted( nums ) \\\n        if not nums else sorted( nums ) \\\n        if not nums else sorted( nums ) \\\n        if not nums else sorted( nums ) \\\n        if not nums else sorted( nums ) \\\n        if not nums else sorted( nums ) \\\n        if not nums else sorted( nums )"}
+{"task_id": "HumanEval/146", "solution": ""}
+{"task_id": "HumanEval/147", "solution": ""}
+{"task_id": "HumanEval/148", "solution": ""}
+{"task_id": "HumanEval/149", "solution": ""}
+{"task_id": "HumanEval/150", "solution": ""}
+{"task_id": "HumanEval/151", "solution": ""}
+{"task_id": "HumanEval/152", "solution": ""}
+{"task_id": "HumanEval/153", "solution": ""}
+{"task_id": "HumanEval/154", "solution": ""}
+{"task_id": "HumanEval/155", "solution": ""}
+{"task_id": "HumanEval/156", "solution": ""}
+{"task_id": "HumanEval/157", "solution": ""}
+{"task_id": "HumanEval/158", "solution": "def find_max( words ):\n    \"\"\"Write a function thataccepts a list of strings.The listcontains different words.Return the word with maximum number of unique characters.If multiple strings have maximum number of unique characters,return the one which comes first in lexicographical order.\"\"\"\n    max_string = \"\"\n    max_string_length = 0\n    for word in words:\n        if len(set(word)) > max_string_length:\n            max_string = word\n            max_string_length = len(set(word))\n    return max_string"}
+{"task_id": "HumanEval/159", "solution": ""}
+{"task_id": "HumanEval/160", "solution": "operator = ['+', '*', '-']\narray = [2, 3, 4, 5]"}
+{"task_id": "HumanEval/161", "solution": ""}
+{"task_id": "HumanEval/162", "solution": ""}
+{"task_id": "HumanEval/163", "solution": ""}

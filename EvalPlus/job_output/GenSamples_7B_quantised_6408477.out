@@ -1,0 +1,151 @@
+
+Generate samples for 7b quantised...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.09s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.03s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.92s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.96s/it]
+[codecarbon WARNING @ 23:57:48] Background scheduler didn't run for a long period (14s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 00:13:39] Background scheduler didn't run for a long period (951s), results might be inaccurate
+Time used for starcoder2-7b, quantised as 4bit with max. 128 new tokens is 951.08 seconds (15.9 minutes).
+Average of 5.87 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 4bit with max. 128 new tokens = 0.04056921277462278 kgs of C02.
+
+Emissions : 0.5740781684393511 g CO₂ for task Load model
+	Energy : CPU 1.161 Wh. GPU 0.273 Wh. RAM0.186Wh.
+Total: 1.62 Wh.
+	Power CPU:280W GPU:66W RAM45W during 14.90670371055603 seconds.
+
+Emissions : 39.99499945426255 g CO₂ for task Inference
+	Energy : CPU 71.295 Wh. GPU 29.699 Wh. RAM11.889Wh.
+Total: 112.882 Wh.
+	Power CPU:270W GPU:112W RAM45W during 951.0841357707977 seconds.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.60s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.80s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.63s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.66s/it]
+[codecarbon WARNING @ 00:18:49] Background scheduler didn't run for a long period (13s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 00:57:39] Background scheduler didn't run for a long period (2329s), results might be inaccurate
+Time used for starcoder2-7b, quantised as 8bit with max. 128 new tokens is 2329.61 seconds (38.8 minutes).
+Average of 14.38 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 8bit with max. 128 new tokens = 0.04206858424133275 kgs of C02.
+
+Emissions : 0.5196799415347574 g CO₂ for task Load model
+	Energy : CPU 1.05 Wh. GPU 0.249 Wh. RAM0.168Wh.
+Total: 1.467 Wh.
+	Power CPU:281W GPU:67W RAM45W during 13.432122945785522 seconds.
+
+Emissions : 41.54871007355206 g CO₂ for task Inference
+	Energy : CPU 29.21 Wh. GPU 58.936 Wh. RAM29.12Wh.
+Total: 117.267 Wh.
+	Power CPU:45W GPU:91W RAM45W during 2329.6070623397827 seconds.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.65s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.62s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.52s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.55s/it]
+[codecarbon WARNING @ 00:58:07] Background scheduler didn't run for a long period (11s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 01:30:09] Background scheduler didn't run for a long period (1922s), results might be inaccurate
+Time used for starcoder2-7b, quantised as 4bit with max. 256 new tokens is 1922.43 seconds (32.0 minutes).
+Average of 11.87 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 4bit with max. 256 new tokens = 0.05521765304239113 kgs of C02.
+
+Emissions : 0.44523432861157625 g CO₂ for task Load model
+	Energy : CPU 0.899 Wh. GPU 0.215 Wh. RAM0.143Wh.
+Total: 1.257 Wh.
+	Power CPU:284W GPU:68W RAM45W during 11.40035629272461 seconds.
+
+Emissions : 54.77208201800714 g CO₂ for task Inference
+	Energy : CPU 71.237 Wh. GPU 59.322 Wh. RAM24.03Wh.
+Total: 154.588 Wh.
+	Power CPU:133W GPU:111W RAM45W during 1922.4298536777496 seconds.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.66s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.62s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.43s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.48s/it]
+[codecarbon WARNING @ 01:31:29] Background scheduler didn't run for a long period (11s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 02:51:46] Background scheduler didn't run for a long period (4817s), results might be inaccurate
+Time used for starcoder2-7b, quantised as 8bit with max. 256 new tokens is 4817.15 seconds (80.3 minutes).
+Average of 29.74 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 8bit with max. 256 new tokens = 0.08656521215708675 kgs of C02.
+
+Emissions : 0.42899596425909137 g CO₂ for task Load model
+	Energy : CPU 0.86 Wh. GPU 0.211 Wh. RAM0.139Wh.
+Total: 1.211 Wh.
+	Power CPU:278W GPU:68W RAM45W during 11.141440629959106 seconds.
+
+Emissions : 86.13602959426959 g CO₂ for task Inference
+	Energy : CPU 61.561 Wh. GPU 121.335 Wh. RAM60.214Wh.
+Total: 243.11 Wh.
+	Power CPU:46W GPU:91W RAM45W during 4817.151528835297 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+12it [00:00, 117.78it/s]33it [00:00, 160.87it/s]55it [00:00, 183.41it/s]75it [00:00, 189.35it/s]94it [00:00, 177.08it/s]112it [00:00, 176.54it/s]130it [00:00, 172.96it/s]153it [00:00, 185.30it/s]164it [00:00, 180.69it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_7b_128_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+5it [00:00, 45.97it/s]14it [00:00, 69.98it/s]24it [00:00, 78.46it/s]32it [00:00, 77.96it/s]40it [00:00, 76.43it/s]49it [00:00, 80.50it/s]58it [00:00, 74.57it/s]67it [00:00, 78.27it/s]77it [00:01, 75.87it/s]85it [00:01, 76.04it/s]93it [00:01, 64.53it/s]100it [00:01, 61.14it/s]107it [00:01, 62.84it/s]114it [00:01, 63.12it/s]121it [00:01, 59.65it/s]129it [00:01, 62.54it/s]136it [00:02, 60.29it/s]147it [00:02, 72.46it/s]157it [00:02, 78.07it/s]164it [00:02, 71.11it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_7b_256_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+15it [00:00, 146.22it/s]33it [00:00, 164.84it/s]56it [00:00, 190.75it/s]76it [00:00, 192.46it/s]96it [00:00, 193.58it/s]116it [00:00, 186.14it/s]135it [00:00, 168.68it/s]159it [00:00, 187.93it/s]164it [00:00, 182.33it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_7b_128_8bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+5it [00:00, 47.87it/s]13it [00:00, 62.65it/s]24it [00:00, 81.57it/s]33it [00:00, 63.66it/s]43it [00:00, 73.75it/s]52it [00:00, 77.16it/s]61it [00:00, 72.16it/s]69it [00:00, 74.06it/s]77it [00:01, 70.23it/s]88it [00:01, 80.51it/s]97it [00:01, 72.96it/s]105it [00:01, 67.65it/s]113it [00:01, 66.59it/s]120it [00:01, 62.33it/s]127it [00:01, 56.36it/s]133it [00:02, 53.52it/s]139it [00:02, 54.86it/s]145it [00:02, 54.77it/s]155it [00:02, 66.07it/s]162it [00:02, 64.34it/s]164it [00:02, 66.44it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_7b_256_8bit-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 7b, 128 tokens. First 4bit and then 8bit.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.99it/s]164it [00:00, 798.31it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  9%|▉         | 15/164 [00:00<00:01, 90.19it/s] 15%|█▌        | 25/164 [00:00<00:01, 74.97it/s] 33%|███▎      | 54/164 [00:00<00:00, 148.19it/s] 44%|████▍     | 72/164 [00:00<00:00, 157.70it/s] 57%|█████▋    | 94/164 [00:01<00:00, 79.54it/s]  79%|███████▉  | 130/164 [00:01<00:00, 120.20it/s] 99%|█████████▉| 163/164 [00:01<00:00, 133.05it/s]100%|██████████| 164/164 [00:01<00:00, 105.33it/s]
+humaneval (base tests)
+pass@1:	0.030
+humaneval+ (base + extra tests)
+pass@1:	0.024
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.19it/s]164it [00:00, 823.03it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 52.54it/s] 34%|███▎      | 55/164 [00:00<00:00, 154.52it/s] 56%|█████▌    | 92/164 [00:00<00:00, 218.60it/s] 74%|███████▍  | 121/164 [00:00<00:00, 124.35it/s] 87%|████████▋ | 142/164 [00:01<00:00, 127.04it/s] 99%|█████████▉| 163/164 [00:01<00:00, 111.87it/s]100%|██████████| 164/164 [00:01<00:00, 111.76it/s]
+humaneval (base tests)
+pass@1:	0.043
+humaneval+ (base + extra tests)
+pass@1:	0.037
+
+Evaluating 7b, 256 tokens. First 4bit and then 8bit.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.99it/s]164it [00:00, 781.16it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 53.33it/s] 25%|██▌       | 41/164 [00:00<00:01, 115.17it/s] 39%|███▉      | 64/164 [00:00<00:00, 143.95it/s] 56%|█████▌    | 92/164 [00:00<00:00, 184.40it/s] 70%|██████▉   | 114/164 [00:01<00:00, 100.40it/s] 79%|███████▉  | 130/164 [00:01<00:00, 105.18it/s] 99%|█████████▉| 163/164 [00:01<00:00, 129.77it/s]100%|██████████| 164/164 [00:01<00:00, 103.11it/s]
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.043
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.21it/s]164it [00:00, 794.95it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 62.89it/s] 21%|██        | 34/164 [00:00<00:01, 100.53it/s] 37%|███▋      | 61/164 [00:00<00:00, 155.24it/s] 51%|█████     | 83/164 [00:00<00:00, 164.58it/s] 62%|██████▏   | 102/164 [00:01<00:00, 86.02it/s] 79%|███████▉  | 130/164 [00:01<00:00, 114.59it/s] 99%|█████████▉| 163/164 [00:01<00:00, 116.61it/s]100%|██████████| 164/164 [00:01<00:00, 104.52it/s]
+humaneval (base tests)
+pass@1:	0.073
+humaneval+ (base + extra tests)
+pass@1:	0.061
+
+JOB STATISTICS
+==============
+Job ID: 6408477
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 02:51:52
+CPU Efficiency: 5.40% of 2-05:04:48 core-walltime
+Job Wall-clock time: 02:56:56
+Memory Utilized: 1.91 GB
+Memory Efficiency: 1.59% of 120.00 GB

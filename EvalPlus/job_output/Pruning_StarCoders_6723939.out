@@ -1,0 +1,480 @@
+[codecarbon WARNING @ 17:15:47] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:15:47] [setup] RAM Tracking...
+[codecarbon INFO @ 17:15:47] [setup] GPU Tracking...
+[codecarbon INFO @ 17:15:47] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:15:47] [setup] CPU Tracking...
+[codecarbon INFO @ 17:15:47] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:15:48] >>> Tracker's metadata:
+[codecarbon INFO @ 17:15:48]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:15:48]   Python version: 3.11.5
+[codecarbon INFO @ 17:15:48]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:15:48]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:15:48]   CPU count: 18
+[codecarbon INFO @ 17:15:48]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:15:48]   GPU count: 1
+[codecarbon INFO @ 17:15:48]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:15:51] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:23:17] Background scheduler didn't run for a long period (431s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 1 layers.
+Time used for 3b with max. 128 new tokens is 431.92 seconds (7.2 minutes).
+Average of 2.67 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.019591783349729053 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:23:21] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:23:21] [setup] RAM Tracking...
+[codecarbon INFO @ 17:23:21] [setup] GPU Tracking...
+[codecarbon INFO @ 17:23:21] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:23:21] [setup] CPU Tracking...
+[codecarbon INFO @ 17:23:21] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:23:21] >>> Tracker's metadata:
+[codecarbon INFO @ 17:23:21]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:23:21]   Python version: 3.11.5
+[codecarbon INFO @ 17:23:21]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:23:21]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:23:21]   CPU count: 18
+[codecarbon INFO @ 17:23:21]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:23:21]   GPU count: 1
+[codecarbon INFO @ 17:23:21]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:23:24] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:30:38] Background scheduler didn't run for a long period (425s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 2 layers.
+Time used for 3b with max. 128 new tokens is 425.71 seconds (7.1 minutes).
+Average of 2.63 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.01931844304982438 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:30:41] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:30:41] [setup] RAM Tracking...
+[codecarbon INFO @ 17:30:41] [setup] GPU Tracking...
+[codecarbon INFO @ 17:30:41] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:30:41] [setup] CPU Tracking...
+[codecarbon INFO @ 17:30:41] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:30:41] >>> Tracker's metadata:
+[codecarbon INFO @ 17:30:41]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:30:41]   Python version: 3.11.5
+[codecarbon INFO @ 17:30:41]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:30:41]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:30:41]   CPU count: 18
+[codecarbon INFO @ 17:30:41]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:30:41]   GPU count: 1
+[codecarbon INFO @ 17:30:41]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:30:44] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:37:42] Background scheduler didn't run for a long period (410s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 3 layers.
+Time used for 3b with max. 128 new tokens is 410.27 seconds (6.8 minutes).
+Average of 2.53 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.018594896506378533 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:37:46] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:37:46] [setup] RAM Tracking...
+[codecarbon INFO @ 17:37:46] [setup] GPU Tracking...
+[codecarbon INFO @ 17:37:46] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:37:46] [setup] CPU Tracking...
+[codecarbon INFO @ 17:37:46] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:37:46] >>> Tracker's metadata:
+[codecarbon INFO @ 17:37:46]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:37:46]   Python version: 3.11.5
+[codecarbon INFO @ 17:37:46]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:37:46]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:37:46]   CPU count: 18
+[codecarbon INFO @ 17:37:46]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:37:46]   GPU count: 1
+[codecarbon INFO @ 17:37:46]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:37:49] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:44:35] Background scheduler didn't run for a long period (397s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 4 layers.
+Time used for 3b with max. 128 new tokens is 397.43 seconds (6.6 minutes).
+Average of 2.45 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.018007960561644686 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:44:38] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:44:38] [setup] RAM Tracking...
+[codecarbon INFO @ 17:44:38] [setup] GPU Tracking...
+[codecarbon INFO @ 17:44:38] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:44:38] [setup] CPU Tracking...
+[codecarbon INFO @ 17:44:38] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:44:38] >>> Tracker's metadata:
+[codecarbon INFO @ 17:44:38]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:44:38]   Python version: 3.11.5
+[codecarbon INFO @ 17:44:38]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:44:38]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:44:38]   CPU count: 18
+[codecarbon INFO @ 17:44:38]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:44:38]   GPU count: 1
+[codecarbon INFO @ 17:44:38]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:44:42] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:51:10] Background scheduler didn't run for a long period (381s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 5 layers.
+Time used for 3b with max. 128 new tokens is 381.01 seconds (6.4 minutes).
+Average of 2.35 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.01726767278291931 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:51:14] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:51:14] [setup] RAM Tracking...
+[codecarbon INFO @ 17:51:14] [setup] GPU Tracking...
+[codecarbon INFO @ 17:51:14] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:51:14] [setup] CPU Tracking...
+[codecarbon INFO @ 17:51:14] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:51:14] >>> Tracker's metadata:
+[codecarbon INFO @ 17:51:14]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:51:14]   Python version: 3.11.5
+[codecarbon INFO @ 17:51:14]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:51:14]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:51:14]   CPU count: 18
+[codecarbon INFO @ 17:51:14]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:51:14]   GPU count: 1
+[codecarbon INFO @ 17:51:14]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:51:17] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:57:30] Background scheduler didn't run for a long period (365s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 6 layers.
+Time used for 3b with max. 128 new tokens is 365.16 seconds (6.1 minutes).
+Average of 2.25 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.016584932042114715 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:57:34] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:57:34] [setup] RAM Tracking...
+[codecarbon INFO @ 17:57:34] [setup] GPU Tracking...
+[codecarbon INFO @ 17:57:34] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:57:34] [setup] CPU Tracking...
+[codecarbon INFO @ 17:57:34] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:57:34] >>> Tracker's metadata:
+[codecarbon INFO @ 17:57:34]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:57:34]   Python version: 3.11.5
+[codecarbon INFO @ 17:57:34]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:57:34]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:57:34]   CPU count: 18
+[codecarbon INFO @ 17:57:34]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:57:34]   GPU count: 1
+[codecarbon INFO @ 17:57:34]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:57:37] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.21s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.20s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.15s/it]
+[codecarbon WARNING @ 18:07:08] Background scheduler didn't run for a long period (555s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 1 layers.
+Time used for 7b with max. 128 new tokens is 555.97 seconds (9.3 minutes).
+Average of 3.43 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.02806529396699491 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:07:12] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:07:12] [setup] RAM Tracking...
+[codecarbon INFO @ 18:07:12] [setup] GPU Tracking...
+[codecarbon INFO @ 18:07:12] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:07:12] [setup] CPU Tracking...
+[codecarbon INFO @ 18:07:12] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:07:12] >>> Tracker's metadata:
+[codecarbon INFO @ 18:07:12]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:07:12]   Python version: 3.11.5
+[codecarbon INFO @ 18:07:12]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:07:12]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:07:12]   CPU count: 18
+[codecarbon INFO @ 18:07:12]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:07:12]   GPU count: 1
+[codecarbon INFO @ 18:07:12]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:07:16] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.74it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.79it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.78it/s]
+[codecarbon WARNING @ 18:16:30] Background scheduler didn't run for a long period (544s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 2 layers.
+Time used for 7b with max. 128 new tokens is 544.02 seconds (9.1 minutes).
+Average of 3.36 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.027556397407026978 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:16:34] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:16:34] [setup] RAM Tracking...
+[codecarbon INFO @ 18:16:34] [setup] GPU Tracking...
+[codecarbon INFO @ 18:16:34] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:16:34] [setup] CPU Tracking...
+[codecarbon INFO @ 18:16:34] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:16:34] >>> Tracker's metadata:
+[codecarbon INFO @ 18:16:34]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:16:34]   Python version: 3.11.5
+[codecarbon INFO @ 18:16:34]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:16:34]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:16:34]   CPU count: 18
+[codecarbon INFO @ 18:16:34]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:16:34]   GPU count: 1
+[codecarbon INFO @ 18:16:34]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:16:37] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.72it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.77it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.75it/s]
+[codecarbon WARNING @ 18:25:07] Background scheduler didn't run for a long period (498s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 3 layers.
+Time used for 7b with max. 128 new tokens is 498.95 seconds (8.3 minutes).
+Average of 3.08 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.02528458848661192 kgs of C02.
+Data stored to csv.
+srun: Step created for StepId=6723939.9
+[codecarbon WARNING @ 18:25:11] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:25:11] [setup] RAM Tracking...
+[codecarbon INFO @ 18:25:11] [setup] GPU Tracking...
+[codecarbon INFO @ 18:25:11] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:25:11] [setup] CPU Tracking...
+[codecarbon INFO @ 18:25:11] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:25:11] >>> Tracker's metadata:
+[codecarbon INFO @ 18:25:11]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:25:11]   Python version: 3.11.5
+[codecarbon INFO @ 18:25:11]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:25:11]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:25:11]   CPU count: 18
+[codecarbon INFO @ 18:25:11]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:25:11]   GPU count: 1
+[codecarbon INFO @ 18:25:11]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:25:14] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.75it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.81it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.79it/s]
+[codecarbon WARNING @ 18:33:47] Background scheduler didn't run for a long period (502s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 4 layers.
+Time used for 7b with max. 128 new tokens is 502.45 seconds (8.4 minutes).
+Average of 3.1 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.025906272795163037 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:33:52] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:33:52] [setup] RAM Tracking...
+[codecarbon INFO @ 18:33:52] [setup] GPU Tracking...
+[codecarbon INFO @ 18:33:52] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:33:52] [setup] CPU Tracking...
+[codecarbon INFO @ 18:33:52] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:33:52] >>> Tracker's metadata:
+[codecarbon INFO @ 18:33:52]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:33:52]   Python version: 3.11.5
+[codecarbon INFO @ 18:33:52]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:33:52]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:33:52]   CPU count: 18
+[codecarbon INFO @ 18:33:52]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:33:52]   GPU count: 1
+[codecarbon INFO @ 18:33:52]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:33:55] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.74it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.33s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.12s/it]
+[codecarbon WARNING @ 18:41:56] Background scheduler didn't run for a long period (468s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 5 layers.
+Time used for 7b with max. 128 new tokens is 468.32 seconds (7.8 minutes).
+Average of 2.89 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.028202044679015017 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:42:00] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:42:00] [setup] RAM Tracking...
+[codecarbon INFO @ 18:42:00] [setup] GPU Tracking...
+[codecarbon INFO @ 18:42:00] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:42:00] [setup] CPU Tracking...
+[codecarbon INFO @ 18:42:00] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:42:00] >>> Tracker's metadata:
+[codecarbon INFO @ 18:42:00]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:42:00]   Python version: 3.11.5
+[codecarbon INFO @ 18:42:00]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:42:00]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:42:00]   CPU count: 18
+[codecarbon INFO @ 18:42:00]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:42:00]   GPU count: 1
+[codecarbon INFO @ 18:42:00]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:42:03] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.70it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.75it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.73it/s]
+[codecarbon WARNING @ 18:50:07] Background scheduler didn't run for a long period (472s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 6 layers.
+Time used for 7b with max. 128 new tokens is 472.89 seconds (7.9 minutes).
+Average of 2.92 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.02853521300106884 kgs of C02.
+Data stored to csv.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+13it [00:00, 124.94it/s]38it [00:00, 195.67it/s]58it [00:00, 196.50it/s]87it [00:00, 231.35it/s]116it [00:00, 252.04it/s]142it [00:00, 239.38it/s]164it [00:00, 232.58it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_3b_128_1-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+16it [00:00, 154.17it/s]32it [00:00, 137.87it/s]51it [00:00, 157.04it/s]69it [00:00, 164.02it/s]91it [00:00, 180.58it/s]113it [00:00, 191.35it/s]133it [00:00, 183.81it/s]152it [00:00, 184.82it/s]164it [00:00, 180.43it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_7b_128_1-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+19it [00:00, 183.74it/s]43it [00:00, 213.78it/s]66it [00:00, 220.95it/s]96it [00:00, 251.24it/s]122it [00:00, 236.24it/s]153it [00:00, 258.35it/s]164it [00:00, 244.89it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_3b_128_2-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+22it [00:00, 217.99it/s]44it [00:00, 201.38it/s]65it [00:00, 197.69it/s]92it [00:00, 223.97it/s]116it [00:00, 224.85it/s]139it [00:00, 225.92it/s]164it [00:00, 228.73it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_7b_128_2-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+40it [00:00, 399.45it/s]82it [00:00, 405.75it/s]123it [00:00, 390.42it/s]164it [00:00, 399.53it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_3b_128_3-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+51it [00:00, 500.03it/s]108it [00:00, 525.07it/s]161it [00:00, 470.09it/s]164it [00:00, 485.33it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_7b_128_3-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+65it [00:00, 622.47it/s]128it [00:00, 606.52it/s]164it [00:00, 623.33it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_3b_128_4-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+39it [00:00, 364.57it/s]93it [00:00, 464.52it/s]140it [00:00, 449.97it/s]164it [00:00, 458.21it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_7b_128_4-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+55it [00:00, 542.16it/s]116it [00:00, 562.28it/s]164it [00:00, 573.31it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_3b_128_5-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+62it [00:00, 612.31it/s]124it [00:00, 604.92it/s]164it [00:00, 603.40it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_7b_128_5-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+65it [00:00, 643.50it/s]130it [00:00, 637.15it/s]164it [00:00, 666.97it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_3b_128_6-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+76it [00:00, 756.55it/s]152it [00:00, 736.85it/s]164it [00:00, 736.97it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_7b_128_6-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating StarCoder2, 256 tokens, 1 layers removed.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.56it/s]164it [00:00, 729.77it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  2%|▏         | 3/164 [00:00<00:05, 29.97it/s] 10%|▉         | 16/164 [00:00<00:02, 58.16it/s] 23%|██▎       | 37/164 [00:00<00:01, 111.45it/s] 39%|███▉      | 64/164 [00:00<00:00, 147.53it/s] 57%|█████▋    | 94/164 [00:00<00:00, 93.51it/s]  79%|███████▊  | 129/164 [00:01<00:00, 127.55it/s] 99%|█████████▉| 162/164 [00:01<00:00, 104.80it/s]100%|██████████| 164/164 [00:02<00:00, 63.18it/s] 
+humaneval (base tests)
+pass@1:	0.018
+humaneval+ (base + extra tests)
+pass@1:	0.012
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.71it/s]164it [00:00, 753.34it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 50.31it/s] 32%|███▏      | 52/164 [00:00<00:00, 142.90it/s] 55%|█████▍    | 90/164 [00:00<00:00, 213.77it/s] 73%|███████▎  | 119/164 [00:00<00:00, 119.73it/s] 85%|████████▌ | 140/164 [00:01<00:00, 122.02it/s] 99%|█████████▉| 163/164 [00:01<00:00, 93.30it/s] 100%|██████████| 164/164 [00:02<00:00, 73.36it/s]
+humaneval (base tests)
+pass@1:	0.030
+humaneval+ (base + extra tests)
+pass@1:	0.024
+
+Evaluating StarCoder2, 256 tokens, 2 layers removed.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.72it/s]164it [00:00, 756.14it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 1/164 [00:00<00:16,  9.90it/s] 10%|▉         | 16/164 [00:00<00:02, 58.91it/s] 25%|██▌       | 41/164 [00:00<00:00, 125.43it/s] 48%|████▊     | 78/164 [00:00<00:00, 203.59it/s] 62%|██████▏   | 101/164 [00:01<00:00, 90.94it/s] 79%|███████▉  | 130/164 [00:01<00:00, 115.42it/s] 99%|█████████▉| 163/164 [00:01<00:00, 121.38it/s]100%|██████████| 164/164 [00:01<00:00, 104.18it/s]
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.049
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.79it/s]164it [00:00, 765.81it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 52.90it/s] 34%|███▍      | 56/164 [00:00<00:00, 163.17it/s] 59%|█████▊    | 96/164 [00:00<00:00, 235.20it/s] 78%|███████▊  | 128/164 [00:00<00:00, 133.16it/s] 92%|█████████▏| 151/164 [00:01<00:00, 128.61it/s]100%|██████████| 164/164 [00:01<00:00, 111.72it/s]
+humaneval (base tests)
+pass@1:	0.030
+humaneval+ (base + extra tests)
+pass@1:	0.024
+
+Evaluating StarCoder2, 256 tokens, 3 layers removed.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.58it/s]164it [00:00, 738.77it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 51.74it/s] 29%|██▉       | 48/164 [00:00<00:00, 134.28it/s] 52%|█████▏    | 85/164 [00:00<00:00, 206.11it/s] 69%|██████▉   | 113/164 [00:00<00:00, 114.65it/s] 81%|████████  | 133/164 [00:01<00:00, 122.86it/s]100%|██████████| 164/164 [00:01<00:00, 99.26it/s] 100%|██████████| 164/164 [00:01<00:00, 110.45it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+srun: Step created for StepId=6723939.29
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.62it/s]164it [00:00, 739.97it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 2/164 [00:00<00:08, 19.98it/s] 10%|▉         | 16/164 [00:00<00:02, 57.60it/s] 29%|██▉       | 48/164 [00:00<00:00, 143.72it/s] 48%|████▊     | 78/164 [00:00<00:00, 193.05it/s] 65%|██████▍   | 106/164 [00:00<00:00, 102.57it/s] 80%|███████▉  | 131/164 [00:01<00:00, 121.32it/s]100%|██████████| 164/164 [00:01<00:00, 100.92it/s]100%|██████████| 164/164 [00:01<00:00, 107.86it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2, 256 tokens, 4 layers removed.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.64it/s]164it [00:00, 747.85it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  4%|▎         | 6/164 [00:00<00:02, 59.64it/s] 10%|▉         | 16/164 [00:00<00:02, 54.91it/s] 30%|███       | 50/164 [00:00<00:00, 156.19it/s] 61%|██████    | 100/164 [00:00<00:00, 270.34it/s] 80%|███████▉  | 131/164 [00:01<00:00, 114.43it/s]100%|██████████| 164/164 [00:01<00:00, 100.46it/s]100%|██████████| 164/164 [00:01<00:00, 113.11it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.42it/s]164it [00:00, 713.64it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 53.66it/s] 30%|███       | 50/164 [00:00<00:00, 145.04it/s] 44%|████▍     | 72/164 [00:00<00:00, 166.29it/s] 68%|██████▊   | 112/164 [00:00<00:00, 110.42it/s] 80%|███████▉  | 131/164 [00:01<00:00, 115.51it/s]100%|██████████| 164/164 [00:01<00:00, 99.57it/s] 100%|██████████| 164/164 [00:01<00:00, 107.36it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2, 256 tokens, 5 layers removed.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.72it/s]164it [00:00, 760.16it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  2%|▏         | 4/164 [00:00<00:04, 39.92it/s] 10%|▉         | 16/164 [00:00<00:02, 54.64it/s] 28%|██▊       | 46/164 [00:00<00:00, 138.89it/s] 39%|███▉      | 64/164 [00:00<00:00, 147.15it/s] 67%|██████▋   | 110/164 [00:00<00:00, 114.71it/s] 80%|███████▉  | 131/164 [00:01<00:00, 122.52it/s]100%|██████████| 164/164 [00:01<00:00, 102.59it/s]100%|██████████| 164/164 [00:01<00:00, 107.68it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.84it/s]164it [00:00, 778.68it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 55.93it/s] 27%|██▋       | 45/164 [00:00<00:00, 133.53it/s] 40%|███▉      | 65/164 [00:00<00:00, 154.47it/s] 59%|█████▊    | 96/164 [00:00<00:00, 92.95it/s]  80%|███████▉  | 131/164 [00:01<00:00, 131.71it/s]100%|██████████| 164/164 [00:01<00:00, 104.91it/s]100%|██████████| 164/164 [00:01<00:00, 108.48it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2, 256 tokens, 6 layers removed.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.83it/s]164it [00:00, 778.20it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  1%|          | 1/164 [00:00<00:16,  9.67it/s] 10%|▉         | 16/164 [00:00<00:02, 56.09it/s] 27%|██▋       | 45/164 [00:00<00:00, 133.03it/s] 44%|████▍     | 72/164 [00:00<00:00, 172.65it/s] 57%|█████▋    | 94/164 [00:01<00:00, 86.21it/s]  80%|███████▉  | 131/164 [00:01<00:00, 128.93it/s]100%|██████████| 164/164 [00:01<00:00, 104.40it/s]100%|██████████| 164/164 [00:01<00:00, 106.20it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.90it/s]164it [00:00, 788.71it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 50.07it/s] 27%|██▋       | 44/164 [00:00<00:01, 119.19it/s] 43%|████▎     | 71/164 [00:00<00:00, 164.42it/s] 57%|█████▋    | 93/164 [00:01<00:00, 83.48it/s]  80%|███████▉  | 131/164 [00:01<00:00, 123.11it/s]100%|██████████| 164/164 [00:01<00:00, 104.32it/s]100%|██████████| 164/164 [00:01<00:00, 105.20it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+JOB STATISTICS
+==============
+Job ID: 6723939
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 01:40:13
+CPU Efficiency: 5.61% of 1-05:46:48 core-walltime
+Job Wall-clock time: 01:39:16
+Memory Utilized: 1.99 GB
+Memory Efficiency: 1.66% of 120.00 GB

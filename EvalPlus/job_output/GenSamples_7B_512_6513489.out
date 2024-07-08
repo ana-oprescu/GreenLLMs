@@ -1,0 +1,66 @@
+
+Generate samples for 3b...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.44s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.73s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.46s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.51s/it]
+[codecarbon WARNING @ 17:05:36] Background scheduler didn't run for a long period (15s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 17:45:08] Background scheduler didn't run for a long period (2372s), results might be inaccurate
+Time used for starcoder2-7b with max. 512 new tokens is 2372.86 seconds (39.5 minutes).
+Average of 14.65 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b with max. 512 new tokens = 0.0716904044398887 kgs of C02.
+
+Emissions : 0.5617208823343056 g CO₂ for task Load model
+	Energy : CPU 1.162 Wh. GPU 0.231 Wh. RAM0.193Wh.
+Total: 1.585 Wh.
+	Power CPU:271W GPU:54W RAM45W during 15.414100646972656 seconds.
+
+Emissions : 71.1285664485299 g CO₂ for task Inference
+	Energy : CPU 30.605 Wh. GPU 140.487 Wh. RAM29.661Wh.
+Total: 200.753 Wh.
+	Power CPU:46W GPU:213W RAM45W during 2372.85732793808 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+3it [00:00, 28.35it/s]6it [00:00, 15.54it/s]9it [00:00, 17.86it/s]12it [00:00, 20.67it/s]15it [00:00, 20.83it/s]19it [00:00, 25.24it/s]23it [00:00, 26.51it/s]26it [00:01, 24.13it/s]29it [00:01, 19.47it/s]32it [00:01, 19.98it/s]37it [00:01, 25.24it/s]40it [00:01, 22.80it/s]45it [00:01, 28.01it/s]49it [00:02, 29.10it/s]53it [00:02, 23.57it/s]56it [00:02, 21.29it/s]59it [00:02, 20.19it/s]62it [00:02, 18.16it/s]65it [00:02, 20.36it/s]69it [00:03, 22.98it/s]73it [00:03, 22.52it/s]76it [00:03, 21.30it/s]79it [00:03, 18.17it/s]83it [00:03, 21.36it/s]87it [00:03, 24.81it/s]91it [00:04, 16.36it/s]94it [00:04, 17.36it/s]98it [00:04, 21.08it/s]101it [00:04, 22.17it/s]104it [00:05, 12.76it/s]108it [00:05, 15.71it/s]111it [00:05, 16.47it/s]114it [00:05, 16.19it/s]116it [00:05, 16.08it/s]118it [00:06, 14.18it/s]120it [00:06, 14.23it/s]125it [00:06, 20.20it/s]128it [00:06, 10.21it/s]132it [00:07, 13.67it/s]135it [00:07,  9.11it/s]139it [00:07, 12.22it/s]142it [00:08, 11.49it/s]144it [00:08, 12.53it/s]149it [00:08, 17.86it/s]153it [00:08, 15.52it/s]158it [00:08, 20.01it/s]161it [00:09, 14.59it/s]164it [00:09, 17.78it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_7b_512-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 3b, 128 tokens. First sanitized then raw.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  4.73it/s]164it [00:00, 672.77it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 59.68it/s] 26%|██▌       | 43/164 [00:00<00:00, 131.28it/s] 40%|████      | 66/164 [00:00<00:00, 162.21it/s] 62%|██████▏   | 101/164 [00:00<00:00, 103.16it/s] 79%|███████▉  | 130/164 [00:01<00:00, 129.10it/s] 99%|█████████▉| 163/164 [00:01<00:00, 104.71it/s]100%|██████████| 164/164 [00:14<00:00, 11.30it/s] 
+humaneval (base tests)
+pass@1:	0.098
+humaneval+ (base + extra tests)
+pass@1:	0.073
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.04it/s]159it [00:00, 651.13it/s]164it [00:00, 538.59it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:01, 85.38it/s] 27%|██▋       | 45/164 [00:00<00:00, 172.07it/s] 49%|████▉     | 81/164 [00:00<00:00, 240.54it/s] 66%|██████▌   | 108/164 [00:00<00:00, 115.82it/s] 80%|███████▉  | 131/164 [00:00<00:00, 128.12it/s]100%|██████████| 164/164 [00:01<00:00, 105.09it/s]100%|██████████| 164/164 [00:01<00:00, 119.98it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+JOB STATISTICS
+==============
+Job ID: 6513489
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:41:05
+CPU Efficiency: 5.07% of 13:29:42 core-walltime
+Job Wall-clock time: 00:44:59
+Memory Utilized: 1.95 GB
+Memory Efficiency: 1.63% of 120.00 GB

@@ -1,0 +1,167 @@
+128 tokens - Iteration 1 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 14:40:35] Background scheduler didn't run for a long period (459s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 128 new tokens is 459.75 seconds (7.7 minutes).
+Average of 2.84 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 128 new tokens = 0.020959683338869335 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 2 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 14:49:50] Background scheduler didn't run for a long period (463s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 128 new tokens is 463.52 seconds (7.7 minutes).
+Average of 2.86 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 128 new tokens = 0.021089493128688422 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 3 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 14:57:45] Background scheduler didn't run for a long period (462s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 128 new tokens is 462.56 seconds (7.7 minutes).
+Average of 2.86 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 128 new tokens = 0.021055423116308508 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 4 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 15:05:40] Background scheduler didn't run for a long period (456s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 128 new tokens is 456.88 seconds (7.6 minutes).
+Average of 2.82 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 128 new tokens = 0.020880245769996492 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 5 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 15:13:48] Background scheduler didn't run for a long period (455s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 128 new tokens is 455.66 seconds (7.6 minutes).
+Average of 2.81 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 128 new tokens = 0.020809740776152472 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 1 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 15:29:28] Background scheduler didn't run for a long period (898s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 256 new tokens is 898.72 seconds (15.0 minutes).
+Average of 5.55 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 256 new tokens = 0.041046207472380296 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 2 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 15:44:58] Background scheduler didn't run for a long period (902s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 256 new tokens is 902.19 seconds (15.0 minutes).
+Average of 5.57 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 256 new tokens = 0.04116291666368159 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 3 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 15:59:58] Background scheduler didn't run for a long period (889s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 256 new tokens is 889.27 seconds (14.8 minutes).
+Average of 5.49 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 256 new tokens = 0.04075801719267314 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 4 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 16:00:05] Unable to access geographical location through primary API. Will resort to using the backup API - Exception : HTTPSConnectionPool(host='get.geojs.io', port=443): Read timed out. (read timeout=0.5) - url=https://get.geojs.io/v1/ip/geo.json
+[codecarbon WARNING @ 16:00:05] Unable to access geographical location. Using 'Canada' as the default value - Exception : 'country' - url=https://get.geojs.io/v1/ip/geo.json
+[codecarbon WARNING @ 16:15:18] Background scheduler didn't run for a long period (908s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 256 new tokens is 908.05 seconds (15.1 minutes).
+Average of 5.61 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 256 new tokens = 0.00027766705939880575 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 5 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+[codecarbon WARNING @ 16:30:36] Background scheduler didn't run for a long period (901s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 256 new tokens is 901.85 seconds (15.0 minutes).
+Average of 5.57 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 256 new tokens = 0.041164786500527 kgs of C02.
+Data stored to csv.
+
+JOB STATISTICS
+==============
+Job ID: 6608867
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 01:41:44
+CPU Efficiency: 4.78% of 1-11:27:36 core-walltime
+Job Wall-clock time: 01:58:12
+Memory Utilized: 12.18 GB
+Memory Efficiency: 10.15% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

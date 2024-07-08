@@ -1,0 +1,26 @@
+128 tokens - Iteration 1 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6608696 ON gcn21 CANCELLED AT 2024-06-12T14:23:14 ***
+slurmstepd: error: *** STEP 6608696.0 ON gcn21 CANCELLED AT 2024-06-12T14:23:14 ***
+
+JOB STATISTICS
+==============
+Job ID: 6608696
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:07:50
+CPU Efficiency: 5.76% of 02:15:54 core-walltime
+Job Wall-clock time: 00:07:33
+Memory Utilized: 1.39 GB
+Memory Efficiency: 1.15% of 120.00 GB

@@ -1,0 +1,153 @@
+
+Generate samples for Phi2...
+
+128 tokens - Iteration 1 out of 5
+
+[codecarbon WARNING @ 20:44:16] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 20:44:16] [setup] RAM Tracking...
+[codecarbon INFO @ 20:44:16] [setup] GPU Tracking...
+[codecarbon INFO @ 20:44:16] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 20:44:16] [setup] CPU Tracking...
+[codecarbon INFO @ 20:44:16] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 20:44:16] >>> Tracker's metadata:
+[codecarbon INFO @ 20:44:16]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 20:44:16]   Python version: 3.11.5
+[codecarbon INFO @ 20:44:16]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 20:44:16]   Available RAM : 120.000 GB
+[codecarbon INFO @ 20:44:16]   CPU count: 18
+[codecarbon INFO @ 20:44:16]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 20:44:16]   GPU count: 1
+[codecarbon INFO @ 20:44:16]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 20:44:19] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.50s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 20:44:33] Background scheduler didn't run for a long period (10s), results might be inaccurate
+Phi-2 loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 20:55:18] Background scheduler didn't run for a long period (645s), results might be inaccurate
+Time used for starcoder2-Phi2, with max. 128 new tokens is 645.05 seconds (10.8 minutes).
+Average of 3.98 seconds per coding task.
+The approximated emissions for the task with starcoder2-Phi2, with max. 128 new tokens = 0.025543260951779147 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 2 out of 5
+
+[codecarbon WARNING @ 20:55:37] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 20:55:37] [setup] RAM Tracking...
+[codecarbon INFO @ 20:55:38] [setup] GPU Tracking...
+[codecarbon INFO @ 20:55:38] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 20:55:38] [setup] CPU Tracking...
+[codecarbon INFO @ 20:55:38] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 20:55:38] >>> Tracker's metadata:
+[codecarbon INFO @ 20:55:38]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 20:55:38]   Python version: 3.11.5
+[codecarbon INFO @ 20:55:38]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 20:55:38]   Available RAM : 120.000 GB
+[codecarbon INFO @ 20:55:38]   CPU count: 18
+[codecarbon INFO @ 20:55:38]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 20:55:38]   GPU count: 1
+[codecarbon INFO @ 20:55:38]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 20:55:41] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.03s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.52s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 20:55:56] Background scheduler didn't run for a long period (10s), results might be inaccurate
+Phi-2 loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 21:06:38] Background scheduler didn't run for a long period (642s), results might be inaccurate
+Time used for starcoder2-Phi2, with max. 128 new tokens is 642.75 seconds (10.7 minutes).
+Average of 3.97 seconds per coding task.
+The approximated emissions for the task with starcoder2-Phi2, with max. 128 new tokens = 0.025454676560058603 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 3 out of 5
+
+[codecarbon WARNING @ 21:06:44] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 21:06:44] [setup] RAM Tracking...
+[codecarbon INFO @ 21:06:44] [setup] GPU Tracking...
+[codecarbon INFO @ 21:06:44] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 21:06:44] [setup] CPU Tracking...
+[codecarbon INFO @ 21:06:44] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 21:06:45] >>> Tracker's metadata:
+[codecarbon INFO @ 21:06:45]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 21:06:45]   Python version: 3.11.5
+[codecarbon INFO @ 21:06:45]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 21:06:45]   Available RAM : 120.000 GB
+[codecarbon INFO @ 21:06:45]   CPU count: 18
+[codecarbon INFO @ 21:06:45]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 21:06:45]   GPU count: 1
+[codecarbon INFO @ 21:06:45]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 21:06:48] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.02s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.51s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 21:07:01] Background scheduler didn't run for a long period (9s), results might be inaccurate
+Phi-2 loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 21:17:47] Background scheduler didn't run for a long period (645s), results might be inaccurate
+Time used for starcoder2-Phi2, with max. 128 new tokens is 645.77 seconds (10.8 minutes).
+Average of 3.99 seconds per coding task.
+The approximated emissions for the task with starcoder2-Phi2, with max. 128 new tokens = 0.02555936385628362 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 4 out of 5
+
+[codecarbon WARNING @ 21:17:52] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 21:17:52] [setup] RAM Tracking...
+[codecarbon INFO @ 21:17:55] [setup] GPU Tracking...
+[codecarbon INFO @ 21:17:55] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 21:17:55] [setup] CPU Tracking...
+[codecarbon INFO @ 21:17:55] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 21:17:55] >>> Tracker's metadata:
+[codecarbon INFO @ 21:17:55]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 21:17:55]   Python version: 3.11.5
+[codecarbon INFO @ 21:17:55]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 21:17:55]   Available RAM : 120.000 GB
+[codecarbon INFO @ 21:17:55]   CPU count: 18
+[codecarbon INFO @ 21:17:55]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 21:17:55]   GPU count: 1
+[codecarbon INFO @ 21:17:55]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 21:18:09] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.32s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.05s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.54s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 21:18:26] Background scheduler didn't run for a long period (10s), results might be inaccurate
+Phi-2 loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 21:29:03] Background scheduler didn't run for a long period (636s), results might be inaccurate
+Time used for starcoder2-Phi2, with max. 128 new tokens is 636.75 seconds (10.6 minutes).
+Average of 3.93 seconds per coding task.
+The approximated emissions for the task with starcoder2-Phi2, with max. 128 new tokens = 0.025331046732117883 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 5 out of 5
+
+[codecarbon WARNING @ 21:29:15] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 21:29:15] [setup] RAM Tracking...
+[codecarbon INFO @ 21:29:15] [setup] GPU Tracking...
+[codecarbon INFO @ 21:29:15] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 21:29:15] [setup] CPU Tracking...
+[codecarbon INFO @ 21:29:15] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 21:29:15] >>> Tracker's metadata:
+[codecarbon INFO @ 21:29:15]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 21:29:15]   Python version: 3.11.5
+[codecarbon INFO @ 21:29:15]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 21:29:15]   Available RAM : 120.000 GB
+[codecarbon INFO @ 21:29:15]   CPU count: 18
+[codecarbon INFO @ 21:29:15]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 21:29:15]   GPU count: 1
+[codecarbon INFO @ 21:29:15]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 21:29:28] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.34s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.05s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.55s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 21:29:57] Background scheduler didn't run for a long period (10s), results might be inaccurate
+Phi-2 loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 21:40:35] Background scheduler didn't run for a long period (638s), results might be inaccurate
+Time used for starcoder2-Phi2, with max. 128 new tokens is 638.31 seconds (10.6 minutes).
+Average of 3.94 seconds per coding task.
+The approximated emissions for the task with starcoder2-Phi2, with max. 128 new tokens = 0.02529705556074083 kgs of C02.
+Data stored to csv.
+
+JOB STATISTICS
+==============
+Job ID: 6805079
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:54:03
+CPU Efficiency: 5.31% of 16:58:30 core-walltime
+Job Wall-clock time: 00:56:35
+Memory Utilized: 1.33 GB
+Memory Efficiency: 1.11% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

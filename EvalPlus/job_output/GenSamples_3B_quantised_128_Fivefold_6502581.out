@@ -1,0 +1,138 @@
+Generate samples for 3b quantised...
+
+[4bit] - Iteration 1 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 23:31:26] Background scheduler didn't run for a long period (911s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 911.2 seconds (15.2 minutes).
+Average of 5.62 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.038505605202427115 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 2 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 23:46:39] Background scheduler didn't run for a long period (899s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 899.49 seconds (15.0 minutes).
+Average of 5.55 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03786009076279698 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 3 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 00:02:33] Background scheduler didn't run for a long period (891s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 891.06 seconds (14.9 minutes).
+Average of 5.5 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03781058289224412 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 4 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 00:17:27] Background scheduler didn't run for a long period (882s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 882.29 seconds (14.7 minutes).
+Average of 5.45 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03745746139879705 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 5 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 00:32:36] Background scheduler didn't run for a long period (897s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 897.87 seconds (15.0 minutes).
+Average of 5.54 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03804703758054229 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 1 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 01:27:22] Background scheduler didn't run for a long period (3275s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3275.34 seconds (54.6 minutes).
+Average of 20.22 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.05845638876467923 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 2 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 02:23:34] Background scheduler didn't run for a long period (3354s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3354.22 seconds (55.9 minutes).
+Average of 20.71 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.06210512907098701 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 3 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 03:18:55] Background scheduler didn't run for a long period (3308s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3308.7 seconds (55.1 minutes).
+Average of 20.42 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.0753719156018168 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 4 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 04:13:37] Background scheduler didn't run for a long period (3270s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3270.32 seconds (54.5 minutes).
+Average of 20.19 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07135790846108928 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 5 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 05:07:32] Background scheduler didn't run for a long period (3221s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3221.99 seconds (53.7 minutes).
+Average of 19.89 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.06959292608954526 kgs of C02.
+Data stored to csv.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+17it [00:00, 167.74it/s]34it [00:00, 166.68it/s]55it [00:00, 185.87it/s]75it [00:00, 191.10it/s]100it [00:00, 208.61it/s]123it [00:00, 213.12it/s]150it [00:00, 230.17it/s]164it [00:00, 210.98it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+18it [00:00, 170.17it/s]40it [00:00, 195.14it/s]62it [00:00, 199.63it/s]85it [00:00, 207.25it/s]109it [00:00, 217.42it/s]131it [00:00, 216.79it/s]154it [00:00, 219.35it/s]164it [00:00, 211.02it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 3b, 128 tokens. First 4bit and then 8bit.
+
+Load from previous results from samples_quantised/samples_3b_128_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.061
+Load from previous results from samples_quantised/samples_3b_128_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.067
+
+JOB STATISTICS
+==============
+Job ID: 6502581
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 05:53:33
+CPU Efficiency: 5.58% of 4-09:34:12 core-walltime
+Job Wall-clock time: 05:51:54
+Memory Utilized: 2.68 GB
+Memory Efficiency: 2.24% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

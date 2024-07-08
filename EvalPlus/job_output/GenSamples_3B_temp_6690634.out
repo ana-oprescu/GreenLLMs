@@ -1,0 +1,35 @@
+128 tokens - Iteration 1 out of 5
+
+128 tokens - Iteration 2 out of 5
+
+128 tokens - Iteration 3 out of 5
+
+128 tokens - Iteration 4 out of 5
+
+128 tokens - Iteration 5 out of 5
+
+Downloading dataset from https://github.com/evalplus/mbppplus_release/releases/download/v0.1.0/MbppPlus.jsonl.gz
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+13it [00:00, 129.25it/s]33it [00:00, 168.88it/s]52it [00:00, 176.59it/s]73it [00:00, 187.41it/s]99it [00:00, 209.74it/s]121it [00:00, 207.33it/s]146it [00:00, 216.69it/s]164it [00:00, 199.45it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_3b_128-sanitized.jsonl
+Load from previous results from samples/samples_3b_128-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.085
+humaneval+ (base + extra tests)
+pass@1:	0.079
+
+JOB STATISTICS
+==============
+Job ID: 6690634
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.36% of 00:09:18 core-walltime
+Job Wall-clock time: 00:00:31
+Memory Utilized: 1.30 MB
+Memory Efficiency: 0.00% of 120.00 GB

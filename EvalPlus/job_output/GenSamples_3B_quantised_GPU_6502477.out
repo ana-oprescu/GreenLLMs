@@ -1,0 +1,27 @@
+Generate samples for 3b quantised...
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 23:09:33] Background scheduler didn't run for a long period (892s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 892.87 seconds (14.9 minutes).
+Average of 5.51 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03327802776819726 kgs of C02.
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 6502477.1 ON gcn33 CANCELLED AT 2024-06-04T23:10:32 ***
+slurmstepd: error: *** JOB 6502477 ON gcn33 CANCELLED AT 2024-06-04T23:10:32 ***
+
+JOB STATISTICS
+==============
+Job ID: 6502477
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:15:47
+CPU Efficiency: 5.11% of 05:09:00 core-walltime
+Job Wall-clock time: 00:17:10
+Memory Utilized: 3.71 GB
+Memory Efficiency: 3.09% of 120.00 GB

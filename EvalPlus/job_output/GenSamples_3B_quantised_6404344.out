@@ -1,0 +1,165 @@
+
+Generate samples for 3b quantised...
+
+[codecarbon WARNING @ 17:12:47] Background scheduler didn't run for a long period (13s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/bitsandbytes/nn/modules.py:426: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+[codecarbon WARNING @ 17:28:02] Background scheduler didn't run for a long period (915s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 915.24 seconds (15.3 minutes).
+Average of 5.65 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03715399358169275 kgs of C02.
+
+Emissions : 0.53712489209423 g CO₂ for task Load model
+	Energy : CPU 1.124 Wh. GPU 0.226 Wh. RAM0.166Wh.
+Total: 1.516 Wh.
+	Power CPU:305W GPU:61W RAM45W during 13.249691724777222 seconds.
+
+Emissions : 36.616767564675456 g CO₂ for task Inference
+	Energy : CPU 68.101 Wh. GPU 23.806 Wh. RAM11.44Wh.
+Total: 103.347 Wh.
+	Power CPU:268W GPU:94W RAM45W during 915.2403283119202 seconds.
+srun: Step created for StepId=6404344.1
+[codecarbon WARNING @ 17:28:14] Background scheduler didn't run for a long period (4s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+[codecarbon WARNING @ 18:23:51] Background scheduler didn't run for a long period (3337s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3337.13 seconds (55.6 minutes).
+Average of 20.6 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07099115774639415 kgs of C02.
+
+Emissions : 0.162263910500881 g CO₂ for task Load model
+	Energy : CPU 0.323 Wh. GPU 0.078 Wh. RAM0.056Wh.
+Total: 0.458 Wh.
+	Power CPU:258W GPU:63W RAM45W during 4.503260374069214 seconds.
+
+Emissions : 70.82876287980466 g CO₂ for task Inference
+	Energy : CPU 86.045 Wh. GPU 72.148 Wh. RAM41.714Wh.
+Total: 199.907 Wh.
+	Power CPU:93W GPU:78W RAM45W during 3337.131345510483 seconds.
+[codecarbon WARNING @ 18:24:08] Background scheduler didn't run for a long period (9s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/bitsandbytes/nn/modules.py:426: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+[codecarbon WARNING @ 18:54:13] Background scheduler didn't run for a long period (1804s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 256 new tokens is 1804.08 seconds (30.1 minutes).
+Average of 11.14 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 256 new tokens = 0.06959549576837634 kgs of C02.
+
+Emissions : 0.3455392441401555 g CO₂ for task Load model
+	Energy : CPU 0.69 Wh. GPU 0.167 Wh. RAM0.118Wh.
+Total: 0.975 Wh.
+	Power CPU:262W GPU:64W RAM45W during 9.462574005126953 seconds.
+
+Emissions : 69.24982191794028 g CO₂ for task Inference
+	Energy : CPU 126.506 Wh. GPU 46.393 Wh. RAM22.551Wh.
+Total: 195.45 Wh.
+	Power CPU:252W GPU:93W RAM45W during 1804.0771465301514 seconds.
+[codecarbon WARNING @ 18:54:30] Background scheduler didn't run for a long period (9s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+[codecarbon WARNING @ 20:43:19] Background scheduler didn't run for a long period (6528s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 256 new tokens is 6528.71 seconds (108.8 minutes).
+Average of 40.3 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 256 new tokens = 0.10702823452654715 kgs of C02.
+
+Emissions : 0.35023406133773693 g CO₂ for task Load model
+	Energy : CPU 0.7 Wh. GPU 0.17 Wh. RAM0.119Wh.
+Total: 0.988 Wh.
+	Power CPU:265W GPU:64W RAM45W during 9.497656106948853 seconds.
+
+Emissions : 106.67791389604778 g CO₂ for task Inference
+	Energy : CPU 78.267 Wh. GPU 141.212 Wh. RAM81.609Wh.
+Total: 301.087 Wh.
+	Power CPU:43W GPU:78W RAM45W during 6528.705461502075 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+15it [00:00, 148.57it/s]33it [00:00, 155.81it/s]55it [00:00, 181.96it/s]76it [00:00, 190.79it/s]100it [00:00, 207.52it/s]124it [00:00, 217.77it/s]151it [00:00, 231.67it/s]164it [00:00, 208.99it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+9it [00:00, 86.53it/s]18it [00:00, 71.23it/s]26it [00:00, 67.52it/s]33it [00:00, 64.10it/s]42it [00:00, 71.22it/s]51it [00:00, 72.42it/s]59it [00:00, 67.55it/s]67it [00:00, 65.55it/s]79it [00:01, 79.13it/s]88it [00:01, 81.59it/s]99it [00:01, 88.86it/s]109it [00:01, 87.44it/s]120it [00:01, 93.06it/s]130it [00:01, 94.96it/s]141it [00:01, 96.90it/s]153it [00:01, 97.66it/s]163it [00:01, 95.21it/s]164it [00:01, 83.58it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_256_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+18it [00:00, 166.23it/s]39it [00:00, 190.96it/s]61it [00:00, 200.05it/s]83it [00:00, 206.95it/s]108it [00:00, 213.72it/s]130it [00:00, 214.61it/s]153it [00:00, 217.87it/s]164it [00:00, 209.62it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+8it [00:00, 77.59it/s]16it [00:00, 75.20it/s]25it [00:00, 80.16it/s]34it [00:00, 83.15it/s]45it [00:00, 88.93it/s]54it [00:00, 78.40it/s]63it [00:00, 79.23it/s]72it [00:00, 78.45it/s]84it [00:01, 87.86it/s]93it [00:01, 87.17it/s]104it [00:01, 92.97it/s]116it [00:01, 95.24it/s]126it [00:01, 91.94it/s]136it [00:01, 87.72it/s]146it [00:01, 89.93it/s]156it [00:01, 89.84it/s]164it [00:01, 86.26it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_256_8bit-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 3b, 128 tokens. First 4bit and then 8bit.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.24it/s]164it [00:00, 834.81it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 52.64it/s] 32%|███▏      | 52/164 [00:00<00:00, 149.92it/s] 62%|██████▏   | 101/164 [00:00<00:00, 246.74it/s] 82%|████████▏ | 134/164 [00:01<00:00, 114.65it/s]100%|██████████| 164/164 [00:01<00:00, 99.27it/s] 100%|██████████| 164/164 [00:01<00:00, 112.17it/s]
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.061
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.22it/s]164it [00:00, 832.16it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 55.85it/s] 32%|███▏      | 52/164 [00:00<00:00, 153.97it/s] 57%|█████▋    | 93/164 [00:00<00:00, 232.43it/s] 76%|███████▌  | 124/164 [00:00<00:00, 131.22it/s] 89%|████████▉ | 146/164 [00:01<00:00, 132.61it/s]100%|██████████| 164/164 [00:01<00:00, 114.26it/s]
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.067
+
+Evaluating 3b, 256 tokens. First 4bit and then 8bit.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.32it/s]164it [00:00, 817.66it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 61.64it/s] 29%|██▊       | 47/164 [00:00<00:00, 148.18it/s] 47%|████▋     | 77/164 [00:00<00:00, 198.88it/s] 62%|██████▏   | 102/164 [00:00<00:00, 103.20it/s] 79%|███████▉  | 130/164 [00:01<00:00, 129.50it/s] 99%|█████████▉| 163/164 [00:01<00:00, 105.25it/s]100%|██████████| 164/164 [00:01<00:00, 96.80it/s] 
+humaneval (base tests)
+pass@1:	0.122
+humaneval+ (base + extra tests)
+pass@1:	0.104
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.42it/s]164it [00:00, 858.14it/s]
+  0%|          | 0/164 [00:00<?, ?it/s] 10%|▉         | 16/164 [00:00<00:02, 56.84it/s] 24%|██▍       | 39/164 [00:00<00:01, 114.13it/s] 39%|███▉      | 64/164 [00:00<00:00, 152.43it/s] 59%|█████▉    | 97/164 [00:00<00:00, 100.79it/s] 79%|███████▉  | 130/164 [00:01<00:00, 131.68it/s] 99%|█████████▉| 163/164 [00:01<00:00, 130.18it/s]100%|██████████| 164/164 [00:01<00:00, 111.37it/s]
+humaneval (base tests)
+pass@1:	0.110
+humaneval+ (base + extra tests)
+pass@1:	0.091
+
+JOB STATISTICS
+==============
+Job ID: 6404344
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 03:32:46
+CPU Efficiency: 5.55% of 2-15:50:42 core-walltime
+Job Wall-clock time: 03:32:49
+Memory Utilized: 2.76 GB
+Memory Efficiency: 2.30% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

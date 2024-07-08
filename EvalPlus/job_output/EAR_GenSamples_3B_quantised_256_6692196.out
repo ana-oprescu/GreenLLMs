@@ -1,0 +1,148 @@
+19-06-2024.
+Deploying EAR module for 3B, saving in EAR folder.
+Job ID 6692196 
+
+Generate samples for 3b quantised, 256 tokens...
+
+[4bit] - Iteration 1 out of 5
+
+[codecarbon WARNING @ 22:50:48] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 23:20:21] Background scheduler didn't run for a long period (1759s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 4bit with max. 256 new tokens is 1759.04 seconds (29.3 minutes).
+Average of 10.86 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 256 new tokens = 0.06628779269204542 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 2 out of 5
+
+[codecarbon WARNING @ 23:20:25] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 23:50:50] Background scheduler didn't run for a long period (1807s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 4bit with max. 256 new tokens is 1807.05 seconds (30.1 minutes).
+Average of 11.15 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 256 new tokens = 0.06796516358660007 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 3 out of 5
+
+[codecarbon WARNING @ 23:51:08] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 00:23:03] Background scheduler didn't run for a long period (1764s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 4bit with max. 256 new tokens is 1764.88 seconds (29.4 minutes).
+Average of 10.89 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 256 new tokens = 0.06648065272682016 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 4 out of 5
+
+[codecarbon WARNING @ 00:23:07] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 00:53:20] Background scheduler didn't run for a long period (1804s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 4bit with max. 256 new tokens is 1804.05 seconds (30.1 minutes).
+Average of 11.14 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 256 new tokens = 0.0678640298829522 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 5 out of 5
+
+[codecarbon WARNING @ 00:53:23] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 01:23:10] Background scheduler didn't run for a long period (1779s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 4bit with max. 256 new tokens is 1779.15 seconds (29.7 minutes).
+Average of 10.98 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 256 new tokens = 0.06697682979850075 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 1 out of 5
+
+[codecarbon WARNING @ 01:23:15] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 03:16:07] Background scheduler didn't run for a long period (6765s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 8bit with max. 256 new tokens is 6765.15 seconds (112.8 minutes).
+Average of 41.76 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 256 new tokens = 0.09130657388532462 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 2 out of 5
+
+[codecarbon WARNING @ 03:16:11] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 05:07:24] Background scheduler didn't run for a long period (6664s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 8bit with max. 256 new tokens is 6664.69 seconds (111.1 minutes).
+Average of 41.14 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 256 new tokens = 0.08774758012519303 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 3 out of 5
+
+[codecarbon WARNING @ 05:07:28] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 07:00:28] Background scheduler didn't run for a long period (6771s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 8bit with max. 256 new tokens is 6771.99 seconds (112.9 minutes).
+Average of 41.8 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 256 new tokens = 0.09148625297519827 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 4 out of 5
+
+[codecarbon WARNING @ 07:00:32] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 08:52:38] Background scheduler didn't run for a long period (6717s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 8bit with max. 256 new tokens is 6717.8 seconds (112.0 minutes).
+Average of 41.47 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 256 new tokens = 0.09119645720784371 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 5 out of 5
+
+[codecarbon WARNING @ 08:53:12] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 10:47:05] Background scheduler didn't run for a long period (6774s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, quantised as 8bit with max. 256 new tokens is 6774.34 seconds (112.9 minutes).
+Average of 41.82 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 256 new tokens = 0.0942820473266741 kgs of C02.
+Data stored to csv.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+8it [00:00, 78.81it/s]16it [00:00, 77.88it/s]24it [00:00, 74.48it/s]32it [00:00, 72.22it/s]41it [00:00, 76.22it/s]50it [00:00, 79.18it/s]58it [00:00, 68.99it/s]66it [00:00, 71.65it/s]75it [00:01, 76.27it/s]86it [00:01, 82.24it/s]98it [00:01, 92.19it/s]108it [00:01, 88.11it/s]118it [00:01, 90.35it/s]129it [00:01, 94.15it/s]140it [00:01, 96.94it/s]153it [00:01, 99.05it/s]164it [00:01, 86.94it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_256_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+8it [00:00, 75.80it/s]16it [00:00, 74.06it/s]25it [00:00, 79.29it/s]34it [00:00, 82.35it/s]45it [00:00, 88.30it/s]54it [00:00, 77.87it/s]62it [00:00, 77.81it/s]71it [00:00, 76.98it/s]84it [00:01, 87.82it/s]93it [00:01, 87.06it/s]104it [00:01, 92.58it/s]116it [00:01, 95.01it/s]126it [00:01, 91.69it/s]136it [00:01, 87.09it/s]146it [00:01, 89.62it/s]156it [00:01, 89.50it/s]164it [00:01, 85.68it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_256_8bit-sanitized.jsonl
+
+Evaluating 7b, 256 tokens. First 4bit and then 8bit.
+
+Load from previous results from samples_quantised/samples_3b_256_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.122
+humaneval+ (base + extra tests)
+pass@1:	0.104
+Load from previous results from samples_quantised/samples_3b_256_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.110
+humaneval+ (base + extra tests)
+pass@1:	0.091
+
+JOB STATISTICS
+==============
+Job ID: 6692196
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 11:45:22
+CPU Efficiency: 5.46% of 8-23:16:48 core-walltime
+Job Wall-clock time: 11:57:36
+Memory Utilized: 8.47 GB
+Memory Efficiency: 7.06% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

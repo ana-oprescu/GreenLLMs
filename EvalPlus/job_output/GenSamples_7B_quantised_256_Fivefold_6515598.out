@@ -1,0 +1,144 @@
+Generate samples for 3b quantised...
+
+[4bit] - Iteration 1 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.73s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.57s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.51s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.54s/it]
+[codecarbon WARNING @ 21:15:55] Background scheduler didn't run for a long period (1893s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 4bit with max. 256 new tokens is 1893.19 seconds (31.6 minutes).
+Average of 11.69 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 4bit with max. 256 new tokens = 0.05569413920554973 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 2 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.36s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.22s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.14s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.18s/it]
+[codecarbon WARNING @ 21:48:25] Background scheduler didn't run for a long period (1925s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 4bit with max. 256 new tokens is 1925.22 seconds (32.1 minutes).
+Average of 11.88 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 4bit with max. 256 new tokens = 0.05689026434620085 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 3 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.39s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.23s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.14s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.18s/it]
+[codecarbon WARNING @ 22:21:04] Background scheduler didn't run for a long period (1930s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 4bit with max. 256 new tokens is 1930.26 seconds (32.2 minutes).
+Average of 11.92 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 4bit with max. 256 new tokens = 0.057462440489478336 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 4 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.36s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.22s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.17s/it]
+[codecarbon WARNING @ 22:53:23] Background scheduler didn't run for a long period (1926s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 4bit with max. 256 new tokens is 1926.46 seconds (32.1 minutes).
+Average of 11.89 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 4bit with max. 256 new tokens = 0.05742268213938645 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 5 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.37s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.24s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.14s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.18s/it]
+[codecarbon WARNING @ 23:25:38] Background scheduler didn't run for a long period (1919s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 4bit with max. 256 new tokens is 1919.41 seconds (32.0 minutes).
+Average of 11.85 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 4bit with max. 256 new tokens = 0.05710655700623531 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 1 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.38s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.25s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.21s/it]
+[codecarbon WARNING @ 00:43:27] Background scheduler didn't run for a long period (4636s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 8bit with max. 256 new tokens is 4636.21 seconds (77.3 minutes).
+Average of 28.62 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 8bit with max. 256 new tokens = 0.08799213060883478 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 2 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.34s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.25s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.16s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.20s/it]
+[codecarbon WARNING @ 02:02:17] Background scheduler didn't run for a long period (4717s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 8bit with max. 256 new tokens is 4717.19 seconds (78.6 minutes).
+Average of 29.12 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 8bit with max. 256 new tokens = 0.0912035117036919 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 3 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.37s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.23s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.16s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.20s/it]
+[codecarbon WARNING @ 03:21:05] Background scheduler didn't run for a long period (4714s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 8bit with max. 256 new tokens is 4714.66 seconds (78.6 minutes).
+Average of 29.1 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 8bit with max. 256 new tokens = 0.09104689829754897 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 4 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.40s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.27s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.21s/it]
+[codecarbon WARNING @ 04:40:59] Background scheduler didn't run for a long period (4776s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 8bit with max. 256 new tokens is 4776.4 seconds (79.6 minutes).
+Average of 29.48 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 8bit with max. 256 new tokens = 0.09333470955287888 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 5 out of 5
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.37s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.24s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.19s/it]
+[codecarbon WARNING @ 05:58:33] Background scheduler didn't run for a long period (4641s), results might be inaccurate
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, quantised as 8bit with max. 256 new tokens is 4641.92 seconds (77.4 minutes).
+Average of 28.65 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, quantised as 8bit with max. 256 new tokens = 0.08819374852824188 kgs of C02.
+Data stored to csv.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+5it [00:00, 40.21it/s]14it [00:00, 66.15it/s]24it [00:00, 76.49it/s]32it [00:00, 76.97it/s]40it [00:00, 76.04it/s]49it [00:00, 80.50it/s]58it [00:00, 74.95it/s]67it [00:00, 78.86it/s]77it [00:01, 76.59it/s]85it [00:01, 76.68it/s]93it [00:01, 64.91it/s]100it [00:01, 61.71it/s]107it [00:01, 63.58it/s]114it [00:01, 63.86it/s]121it [00:01, 60.33it/s]129it [00:01, 63.25it/s]136it [00:02, 61.01it/s]147it [00:02, 73.45it/s]157it [00:02, 79.14it/s]164it [00:02, 71.37it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_7b_256_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+5it [00:00, 47.03it/s]13it [00:00, 61.93it/s]24it [00:00, 80.47it/s]33it [00:00, 62.86it/s]43it [00:00, 72.91it/s]52it [00:00, 76.33it/s]61it [00:00, 71.51it/s]69it [00:00, 73.56it/s]77it [00:01, 69.82it/s]88it [00:01, 80.16it/s]97it [00:01, 72.61it/s]105it [00:01, 67.31it/s]113it [00:01, 65.99it/s]120it [00:01, 62.00it/s]127it [00:01, 56.07it/s]133it [00:02, 53.24it/s]139it [00:02, 54.55it/s]145it [00:02, 54.41it/s]155it [00:02, 65.61it/s]162it [00:02, 63.78it/s]164it [00:02, 65.93it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_7b_256_8bit-sanitized.jsonl
+
+Evaluating 7b, 256 tokens. First 4bit and then 8bit.
+
+Load from previous results from samples_quantised/samples_7b_256_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.043
+Load from previous results from samples_quantised/samples_7b_256_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.073
+humaneval+ (base + extra tests)
+pass@1:	0.061
+
+JOB STATISTICS
+==============
+Job ID: 6515598
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 09:16:44
+CPU Efficiency: 5.57% of 6-22:32:24 core-walltime
+Job Wall-clock time: 09:15:08
+Memory Utilized: 1.47 GB
+Memory Efficiency: 1.23% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

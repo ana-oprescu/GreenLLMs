@@ -1,0 +1,35 @@
+128 tokens - Iteration 1 out of 5
+
+/home/pdereus/.local/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+[codecarbon WARNING @ 14:32:45] Background scheduler didn't run for a long period (457s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 128 new tokens is 457.24 seconds (7.6 minutes).
+Average of 2.82 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 128 new tokens = 0.0226955157798468 kgs of C02.
+Data stored to csv.
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+13it [00:00, 128.09it/s]35it [00:00, 179.43it/s]56it [00:00, 187.41it/s]79it [00:00, 202.19it/s]100it [00:00, 198.97it/s]121it [00:00, 199.81it/s]145it [00:00, 211.82it/s]164it [00:00, 200.28it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_3b_128-sanitized.jsonl
+Load from previous results from samples/samples_3b_128-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.085
+humaneval+ (base + extra tests)
+pass@1:	0.079
+
+JOB STATISTICS
+==============
+Job ID: 6660591
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:08:19
+CPU Efficiency: 5.61% of 02:28:12 core-walltime
+Job Wall-clock time: 00:08:14
+Memory Utilized: 1.43 GB
+Memory Efficiency: 1.19% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

@@ -1,0 +1,69 @@
+18-06-2024.
+Testing EAR module for 3B.
+Job ID6671721 
+
+Generate samples for 3b quantised, 128 tokens...
+Note: just one iteration for test.
+[4bit] - Iteration 1 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 12:43:30] Background scheduler didn't run for a long period (884s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 884.45 seconds (14.7 minutes).
+Average of 5.46 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03407853019393068 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 1 out of 5
+
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 13:41:08] Background scheduler didn't run for a long period (3416s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3416.28 seconds (56.9 minutes).
+Average of 21.09 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07523639317930896 kgs of C02.
+Data stored to csv.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+15it [00:00, 147.84it/s]33it [00:00, 158.73it/s]55it [00:00, 183.19it/s]75it [00:00, 188.78it/s]100it [00:00, 206.23it/s]122it [00:00, 208.96it/s]149it [00:00, 226.01it/s]164it [00:00, 206.56it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+18it [00:00, 166.36it/s]39it [00:00, 190.12it/s]61it [00:00, 199.23it/s]83it [00:00, 206.11it/s]108it [00:00, 213.10it/s]130it [00:00, 214.20it/s]153it [00:00, 217.28it/s]164it [00:00, 208.97it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 7b, 128 tokens. First 4bit and then 8bit.
+
+Load from previous results from samples_quantised/samples_3b_128_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.061
+Load from previous results from samples_quantised/samples_3b_128_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.067
+
+JOB STATISTICS
+==============
+Job ID: 6671721
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 01:12:27
+CPU Efficiency: 5.46% of 22:06:54 core-walltime
+Job Wall-clock time: 01:13:43
+Memory Utilized: 9.45 GB
+Memory Efficiency: 7.87% of 120.00 GB

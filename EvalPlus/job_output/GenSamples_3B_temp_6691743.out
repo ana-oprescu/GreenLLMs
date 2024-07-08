@@ -1,0 +1,30 @@
+Test to see if original samples is running or some module fuck up
+128 tokens - Iteration 1 out of 5
+
+[codecarbon WARNING @ 22:02:24] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 22:10:14] Background scheduler didn't run for a long period (456s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+Time used for starcoder2-3b, with max. 128 new tokens is 456.97 seconds (7.6 minutes).
+Average of 2.82 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, with max. 128 new tokens = 0.020923899139634175 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 2 out of 5
+
+[codecarbon WARNING @ 22:11:12] Invalid gpu_ids format. Expected a string or a list of ints.
+slurmstepd: error: *** STEP 6691743.1 ON gcn29 CANCELLED AT 2024-06-19T22:13:10 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 6691743 ON gcn29 CANCELLED AT 2024-06-19T22:13:10 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+
+JOB STATISTICS
+==============
+Job ID: 6691743
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:10:34
+CPU Efficiency: 5.21% of 03:22:48 core-walltime
+Job Wall-clock time: 00:11:16
+Memory Utilized: 1.45 GB
+Memory Efficiency: 1.21% of 120.00 GB

@@ -1,0 +1,235 @@
+Generate samples for 3b quantised, 128 tokens...
+
+[4bit] - Iteration 1 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 14:46:02] Background scheduler didn't run for a long period (875s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 875.54 seconds (14.6 minutes).
+Average of 5.4 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.033494654939290255 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 2 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 15:02:07] Background scheduler didn't run for a long period (894s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 894.27 seconds (14.9 minutes).
+Average of 5.52 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.034198097191578326 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 3 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 15:17:03] Background scheduler didn't run for a long period (883s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 883.22 seconds (14.7 minutes).
+Average of 5.45 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.033794887093215945 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 4 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 15:32:55] Background scheduler didn't run for a long period (895s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 895.57 seconds (14.9 minutes).
+Average of 5.53 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.034234011217100846 kgs of C02.
+Data stored to csv.
+[4bit] - Iteration 5 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 15:48:08] Background scheduler didn't run for a long period (895s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 895.02 seconds (14.9 minutes).
+Average of 5.52 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.034233626068745984 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 1 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 16:42:33] Background scheduler didn't run for a long period (3237s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3237.19 seconds (54.0 minutes).
+Average of 19.98 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.06820317052934222 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 2 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 17:38:17] Background scheduler didn't run for a long period (3333s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3333.2 seconds (55.6 minutes).
+Average of 20.58 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07116196894218263 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 3 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 18:34:12] Background scheduler didn't run for a long period (3335s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3335.01 seconds (55.6 minutes).
+Average of 20.59 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07249696641170958 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 4 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 19:29:47] Background scheduler didn't run for a long period (3271s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3271.15 seconds (54.5 minutes).
+Average of 20.19 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07129842833200781 kgs of C02.
+Data stored to csv.
+[8bit] - Iteration 5 out of 5
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Model is stored on:  cuda:0
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 20:38:27] Background scheduler didn't run for a long period (3257s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3257.36 seconds (54.3 minutes).
+Average of 20.11 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07074544033753687 kgs of C02.
+Data stored to csv.
+
+Samples generated.
+Proceeding to sanitizing..
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+16it [00:00, 156.83it/s]33it [00:00, 160.79it/s]55it [00:00, 185.19it/s]75it [00:00, 190.45it/s]100it [00:00, 207.54it/s]122it [00:00, 211.46it/s]149it [00:00, 228.29it/s]164it [00:00, 208.87it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+18it [00:00, 169.59it/s]40it [00:00, 193.88it/s]62it [00:00, 199.27it/s]85it [00:00, 206.83it/s]109it [00:00, 217.20it/s]131it [00:00, 216.87it/s]154it [00:00, 219.66it/s]164it [00:00, 210.90it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 7b, 128 tokens. First 4bit and then 8bit.
+
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Load from previous results from samples_quantised/samples_3b_128_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.061
+--------------------------------------
+Checking powercap in configuration
+--------------------------------------
+my_node_conf powercap is UNLIMITED
+--------------------------------------
+Finished checking powercap, final powercap value: 1
+--------------------------------------
+Load from previous results from samples_quantised/samples_3b_128_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.067
+
+JOB STATISTICS
+==============
+Job ID: 6608852
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 05:53:36
+CPU Efficiency: 5.34% of 4-14:23:24 core-walltime
+Job Wall-clock time: 06:07:58
+Memory Utilized: 5.06 GB
+Memory Efficiency: 4.22% of 120.00 GB

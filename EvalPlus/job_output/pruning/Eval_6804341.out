@@ -1,0 +1,111 @@
+
+Evaluating StarCoder2-3B, 128 tokens, 1 layers removed.
+
+Load from previous results from samples_decode/samples_3b_128_1-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.018
+humaneval+ (base + extra tests)
+pass@1:	0.012
+
+Evaluating StarCoder2-7B, 128 tokens, 1 layers removed.
+
+Load from previous results from samples_decode/samples_7b_128_1-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.030
+humaneval+ (base + extra tests)
+pass@1:	0.024
+
+Evaluating StarCoder2-3B, 128 tokens, 2 layers removed.
+
+Load from previous results from samples_decode/samples_3b_128_2-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.049
+
+Evaluating StarCoder2-7B, 128 tokens, 2 layers removed.
+
+Load from previous results from samples_decode/samples_7b_128_2-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.030
+humaneval+ (base + extra tests)
+pass@1:	0.024
+
+Evaluating StarCoder2-3B, 128 tokens, 3 layers removed.
+
+Load from previous results from samples_decode/samples_3b_128_3-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2-7B, 128 tokens, 3 layers removed.
+
+Load from previous results from samples_decode/samples_7b_128_3-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2-3B, 128 tokens, 4 layers removed.
+
+Load from previous results from samples_decode/samples_3b_128_4-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2-7B, 128 tokens, 4 layers removed.
+
+Load from previous results from samples_decode/samples_7b_128_4-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2-3B, 128 tokens, 5 layers removed.
+
+Load from previous results from samples_decode/samples_3b_128_5-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2-7B, 128 tokens, 5 layers removed.
+
+Load from previous results from samples_decode/samples_7b_128_5-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2-3B, 128 tokens, 6 layers removed.
+
+Load from previous results from samples_decode/samples_3b_128_6-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating StarCoder2-7B, 128 tokens, 6 layers removed.
+
+Load from previous results from samples_decode/samples_7b_128_6-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+JOB STATISTICS
+==============
+Job ID: 6804341
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.16% of 00:21:00 core-walltime
+Job Wall-clock time: 00:01:10
+Memory Utilized: 1.29 MB
+Memory Efficiency: 0.00% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

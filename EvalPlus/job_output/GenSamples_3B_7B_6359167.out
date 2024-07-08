@@ -1,0 +1,309 @@
+
+Generate samples for 3b...
+
+[codecarbon WARNING @ 11:28:21] Background scheduler didn't run for a long period (9s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 11:36:24] Background scheduler didn't run for a long period (483s), results might be inaccurate
+Time used for starcoder2-3b with max. 128 new tokens is 483.4 seconds (8.1 minutes).
+Average of 2.98 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b with max. 128 new tokens = 0.026827694325605334 kgs of C02.
+
+Emissions : 0.436817348650095 g CO₂ for task Load model
+	Energy : CPU 0.975 Wh. GPU 0.139 Wh. RAM0.118Wh.
+Total: 1.233 Wh.
+	Power CPU:370W GPU:53W RAM45W during 9.475232601165771 seconds.
+
+Emissions : 26.390733373542496 g CO₂ for task Inference
+	Energy : CPU 46.963 Wh. GPU 21.48 Wh. RAM6.042Wh.
+Total: 74.485 Wh.
+	Power CPU:350W GPU:160W RAM45W during 483.3970956802368 seconds.
+	
+srun: Step created for StepId=6359167.1
+[codecarbon WARNING @ 11:37:45] Background scheduler didn't run for a long period (4s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 11:53:49] Background scheduler didn't run for a long period (963s), results might be inaccurate
+Time used for starcoder2-3b with max. 256 new tokens is 963.79 seconds (16.1 minutes).
+Average of 5.95 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b with max. 256 new tokens = 0.05389744245455852 kgs of C02.
+
+Emissions : 0.19765434026012194 g CO₂ for task Load model
+	Energy : CPU 0.436 Wh. GPU 0.07 Wh. RAM0.052Wh.
+Total: 0.558 Wh.
+	Power CPU:377W GPU:60W RAM45W during 4.16685938835144 seconds.
+
+Emissions : 53.69964940649415 g CO₂ for task Inference
+	Energy : CPU 96.782 Wh. GPU 42.732 Wh. RAM12.047Wh.
+Total: 151.562 Wh.
+	Power CPU:362W GPU:160W RAM45W during 963.7852890491486 seconds.
+
+Generate samples for 7b...
+
+srun: Step created for StepId=6359167.2
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.36s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.41s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.37s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.38s/it]
+[codecarbon WARNING @ 11:55:18] Background scheduler didn't run for a long period (12s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 12:05:04] Background scheduler didn't run for a long period (586s), results might be inaccurate
+Time used for starcoder2-7b with max. 128 new tokens is 586.62 seconds (9.8 minutes).
+Average of 3.62 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b with max. 128 new tokens = 0.03623454976036261 kgs of C02.
+
+Emissions : 0.5803464542095514 g CO₂ for task Load model
+	Energy : CPU 1.293 Wh. GPU 0.191 Wh. RAM0.154Wh.
+Total: 1.638 Wh.
+	Power CPU:376W GPU:56W RAM45W during 12.357541561126709 seconds.
+
+Emissions : 35.654053796056004 g CO₂ for task Inference
+	Energy : CPU 57.96 Wh. GPU 35.337 Wh. RAM7.333Wh.
+Total: 100.63 Wh.
+	Power CPU:356W GPU:217W RAM45W during 586.622421503067 seconds.
+srun: Step created for StepId=6359167.3
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.58it/s]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.62it/s]
+[codecarbon WARNING @ 12:06:28] Background scheduler didn't run for a long period (7s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 12:25:57] Background scheduler didn't run for a long period (1168s), results might be inaccurate
+Time used for starcoder2-7b with max. 256 new tokens is 1168.84 seconds (19.5 minutes).
+Average of 7.22 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b with max. 256 new tokens = 0.07188730966957649 kgs of C02.
+
+Emissions : 0.3418381685259758 g CO₂ for task Load model
+	Energy : CPU 0.753 Wh. GPU 0.122 Wh. RAM0.09Wh.
+Total: 0.965 Wh.
+	Power CPU:377W GPU:61W RAM45W during 7.185683727264404 seconds.
+
+Emissions : 71.5453359731692 g CO₂ for task Inference
+	Energy : CPU 117.642 Wh. GPU 69.676 Wh. RAM14.611Wh.
+Total: 201.929 Wh.
+	Power CPU:362W GPU:215W RAM45W during 1168.8448112010956 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+srun: Step created for StepId=6359167.4
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+
+14it [00:00, 137.70it/s]
+36it [00:00, 184.79it/s]
+56it [00:00, 188.41it/s]
+79it [00:00, 204.28it/s]
+100it [00:00, 199.58it/s]
+121it [00:00, 201.71it/s]
+146it [00:00, 212.74it/s]
+164it [00:00, 202.64it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_3b_128-sanitized.jsonl
+srun: Step created for StepId=6359167.5
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+
+7it [00:00, 65.45it/s]
+14it [00:00, 65.18it/s]
+24it [00:00, 80.14it/s]
+33it [00:00, 83.35it/s]
+43it [00:00, 88.72it/s]
+52it [00:00, 80.31it/s]
+61it [00:00, 75.36it/s]
+69it [00:00, 75.19it/s]
+82it [00:00, 89.30it/s]
+92it [00:01, 71.19it/s]
+102it [00:01, 77.53it/s]
+112it [00:01, 81.95it/s]
+121it [00:01, 79.34it/s]
+132it [00:01, 87.21it/s]
+143it [00:01, 92.52it/s]
+153it [00:01, 87.00it/s]
+162it [00:01, 83.60it/s]
+164it [00:02, 81.94it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_3b_256-sanitized.jsonl
+srun: Step created for StepId=6359167.6
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+
+20it [00:00, 193.44it/s]
+40it [00:00, 177.49it/s]
+62it [00:00, 188.84it/s]
+82it [00:00, 191.67it/s]
+102it [00:00, 194.10it/s]
+122it [00:00, 189.62it/s]
+142it [00:00, 175.82it/s]
+163it [00:00, 185.44it/s]
+164it [00:00, 186.47it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_7b_128-sanitized.jsonl
+srun: Step created for StepId=6359167.7
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+
+8it [00:00, 73.08it/s]
+16it [00:00, 73.64it/s]
+25it [00:00, 77.79it/s]
+33it [00:00, 69.38it/s]
+44it [00:00, 80.41it/s]
+53it [00:00, 80.98it/s]
+62it [00:00, 71.67it/s]
+72it [00:00, 78.64it/s]
+81it [00:01, 74.38it/s]
+91it [00:01, 72.96it/s]
+100it [00:01, 76.53it/s]
+108it [00:01, 68.94it/s]
+116it [00:01, 66.21it/s]
+123it [00:01, 66.48it/s]
+130it [00:01, 58.83it/s]
+137it [00:02, 53.49it/s]
+144it [00:02, 55.27it/s]
+153it [00:02, 62.45it/s]
+160it [00:02, 62.95it/s]
+164it [00:02, 68.35it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_7b_256-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 3b, 128 tokens. First sanitized then raw.
+
+srun: Step created for StepId=6359167.8
+Load from previous results from samples/samples_3b_128-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.085
+humaneval+ (base + extra tests)
+pass@1:	0.079
+srun: Step created for StepId=6359167.9
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+
+0it [00:00, ?it/s]
+1it [00:00,  2.63it/s]
+164it [00:00, 389.52it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+ 10%|▉         | 16/164 [00:00<00:03, 46.84it/s]
+ 23%|██▎       | 38/164 [00:00<00:01, 97.05it/s]
+ 37%|███▋      | 60/164 [00:00<00:00, 130.69it/s]
+ 56%|█████▌    | 92/164 [00:00<00:00, 183.12it/s]
+ 70%|███████   | 115/164 [00:01<00:00, 95.50it/s]
+ 80%|████████  | 132/164 [00:01<00:00, 93.79it/s]
+100%|██████████| 164/164 [00:01<00:00, 83.60it/s]
+100%|██████████| 164/164 [00:01<00:00, 93.58it/s]
+humaneval (base tests)
+pass@1:	0.012
+humaneval+ (base + extra tests)
+pass@1:	0.012
+
+Evaluating 3b, 256 tokens. First sanitized then raw.
+
+srun: Step created for StepId=6359167.10
+Load from previous results from samples/samples_3b_256-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.134
+humaneval+ (base + extra tests)
+pass@1:	0.104
+srun: Step created for StepId=6359167.11
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+
+0it [00:00, ?it/s]
+1it [00:00,  2.91it/s]
+150it [00:00, 412.02it/s]
+164it [00:00, 350.64it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+ 10%|▉         | 16/164 [00:00<00:02, 64.18it/s]
+ 23%|██▎       | 37/164 [00:00<00:01, 116.51it/s]
+ 37%|███▋      | 60/164 [00:00<00:00, 152.72it/s]
+ 58%|█████▊    | 95/164 [00:01<00:00, 88.56it/s] 
+ 80%|███████▉  | 131/164 [00:01<00:00, 116.77it/s]
+100%|██████████| 164/164 [00:01<00:00, 95.69it/s] 
+100%|██████████| 164/164 [00:01<00:00, 100.16it/s]
+humaneval (base tests)
+pass@1:	0.012
+humaneval+ (base + extra tests)
+pass@1:	0.012
+
+Evaluating 7b, 128 tokens. First sanitized then raw.
+
+srun: Step created for StepId=6359167.12
+Load from previous results from samples/samples_7b_128-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.043
+humaneval+ (base + extra tests)
+pass@1:	0.037
+srun: Step created for StepId=6359167.13
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+
+0it [00:00, ?it/s]
+1it [00:00,  2.81it/s]
+164it [00:00, 414.18it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+ 10%|▉         | 16/164 [00:00<00:03, 47.56it/s]
+ 29%|██▉       | 48/164 [00:00<00:00, 119.26it/s]
+ 40%|███▉      | 65/164 [00:00<00:00, 129.86it/s]
+ 54%|█████▍    | 89/164 [00:01<00:01, 60.71it/s] 
+ 80%|███████▉  | 131/164 [00:01<00:00, 97.51it/s]
+100%|██████████| 164/164 [00:01<00:00, 87.06it/s]
+100%|██████████| 164/164 [00:01<00:00, 86.73it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+Evaluating 7b, 256 tokens. First sanitized then raw.
+
+srun: Step created for StepId=6359167.14
+Load from previous results from samples/samples_7b_256-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.079
+humaneval+ (base + extra tests)
+pass@1:	0.061
+srun: Step created for StepId=6359167.15
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+
+0it [00:00, ?it/s]
+1it [00:00,  3.08it/s]
+164it [00:00, 446.50it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+ 10%|▉         | 16/164 [00:00<00:03, 47.28it/s]
+ 27%|██▋       | 44/164 [00:00<00:01, 114.64it/s]
+ 40%|███▉      | 65/164 [00:00<00:00, 132.05it/s]
+ 55%|█████▌    | 91/164 [00:01<00:00, 76.23it/s] 
+ 80%|███████▉  | 131/164 [00:01<00:00, 115.84it/s]
+100%|██████████| 164/164 [00:01<00:00, 94.17it/s] 
+100%|██████████| 164/164 [00:01<00:00, 95.25it/s]
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+JOB STATISTICS
+==============
+Job ID: 6359167
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 01:03:29
+CPU Efficiency: 4.69% of 22:34:48 core-walltime
+Job Wall-clock time: 01:15:16
+Memory Utilized: 27.85 GB
+Memory Efficiency: 23.21% of 120.00 GB

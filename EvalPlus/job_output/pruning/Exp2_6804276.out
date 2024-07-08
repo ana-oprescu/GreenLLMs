@@ -1,0 +1,446 @@
+[codecarbon WARNING @ 17:08:23] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:08:23] [setup] RAM Tracking...
+[codecarbon INFO @ 17:08:23] [setup] GPU Tracking...
+[codecarbon INFO @ 17:08:23] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:08:23] [setup] CPU Tracking...
+[codecarbon INFO @ 17:08:23] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:08:23] >>> Tracker's metadata:
+[codecarbon INFO @ 17:08:23]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:08:23]   Python version: 3.11.5
+[codecarbon INFO @ 17:08:23]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:08:23]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:08:23]   CPU count: 18
+[codecarbon INFO @ 17:08:23]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:08:23]   GPU count: 1
+[codecarbon INFO @ 17:08:23]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:08:26] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:15:54] Background scheduler didn't run for a long period (434s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 1 layers.
+Time used for 3b with max. 128 new tokens is 434.94 seconds (7.2 minutes).
+Average of 2.68 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.020271833757067398 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:16:08] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:16:08] [setup] RAM Tracking...
+[codecarbon INFO @ 17:16:09] [setup] GPU Tracking...
+[codecarbon INFO @ 17:16:09] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:16:09] [setup] CPU Tracking...
+[codecarbon INFO @ 17:16:09] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:16:09] >>> Tracker's metadata:
+[codecarbon INFO @ 17:16:09]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:16:09]   Python version: 3.11.5
+[codecarbon INFO @ 17:16:09]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:16:09]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:16:09]   CPU count: 18
+[codecarbon INFO @ 17:16:09]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:16:09]   GPU count: 1
+[codecarbon INFO @ 17:16:09]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:16:13] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:23:26] Background scheduler didn't run for a long period (421s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 2 layers.
+Time used for 3b with max. 128 new tokens is 421.81 seconds (7.0 minutes).
+Average of 2.6 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.019692713686988945 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:23:29] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:23:29] [setup] RAM Tracking...
+[codecarbon INFO @ 17:23:30] [setup] GPU Tracking...
+[codecarbon INFO @ 17:23:30] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:23:30] [setup] CPU Tracking...
+[codecarbon INFO @ 17:23:30] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:23:30] >>> Tracker's metadata:
+[codecarbon INFO @ 17:23:30]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:23:30]   Python version: 3.11.5
+[codecarbon INFO @ 17:23:30]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:23:30]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:23:30]   CPU count: 18
+[codecarbon INFO @ 17:23:30]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:23:30]   GPU count: 1
+[codecarbon INFO @ 17:23:30]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:23:48] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:32:02] Background scheduler didn't run for a long period (407s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 3 layers.
+Time used for 3b with max. 128 new tokens is 407.26 seconds (6.8 minutes).
+Average of 2.51 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.019008416765812376 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:32:11] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:32:11] [setup] RAM Tracking...
+[codecarbon INFO @ 17:32:12] [setup] GPU Tracking...
+[codecarbon INFO @ 17:32:12] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:32:12] [setup] CPU Tracking...
+[codecarbon INFO @ 17:32:12] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:32:12] >>> Tracker's metadata:
+[codecarbon INFO @ 17:32:12]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:32:12]   Python version: 3.11.5
+[codecarbon INFO @ 17:32:12]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:32:12]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:32:12]   CPU count: 18
+[codecarbon INFO @ 17:32:12]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:32:12]   GPU count: 1
+[codecarbon INFO @ 17:32:12]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:32:15] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:38:58] Background scheduler didn't run for a long period (393s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 4 layers.
+Time used for 3b with max. 128 new tokens is 393.79 seconds (6.6 minutes).
+Average of 2.43 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.018377693611742574 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:39:22] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:39:22] [setup] RAM Tracking...
+[codecarbon INFO @ 17:39:23] [setup] GPU Tracking...
+[codecarbon INFO @ 17:39:23] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:39:23] [setup] CPU Tracking...
+[codecarbon INFO @ 17:39:23] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:39:23] >>> Tracker's metadata:
+[codecarbon INFO @ 17:39:23]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:39:23]   Python version: 3.11.5
+[codecarbon INFO @ 17:39:23]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:39:23]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:39:23]   CPU count: 18
+[codecarbon INFO @ 17:39:23]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:39:23]   GPU count: 1
+[codecarbon INFO @ 17:39:23]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:39:37] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:46:07] Background scheduler didn't run for a long period (378s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 5 layers.
+Time used for 3b with max. 128 new tokens is 378.73 seconds (6.3 minutes).
+Average of 2.34 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.017681514163117328 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:46:39] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:46:39] [setup] RAM Tracking...
+[codecarbon INFO @ 17:46:40] [setup] GPU Tracking...
+[codecarbon INFO @ 17:46:40] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:46:40] [setup] CPU Tracking...
+[codecarbon INFO @ 17:46:40] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:46:40] >>> Tracker's metadata:
+[codecarbon INFO @ 17:46:40]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:46:40]   Python version: 3.11.5
+[codecarbon INFO @ 17:46:40]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:46:40]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:46:40]   CPU count: 18
+[codecarbon INFO @ 17:46:40]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:46:40]   GPU count: 1
+[codecarbon INFO @ 17:46:40]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:46:58] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon WARNING @ 17:53:13] Background scheduler didn't run for a long period (366s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 6 layers.
+Time used for 3b with max. 128 new tokens is 366.13 seconds (6.1 minutes).
+Average of 2.26 seconds per coding task.
+The approximated emissions for the task with 3b with max. 128 new tokens = 0.01709997952281619 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 17:53:17] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 17:53:17] [setup] RAM Tracking...
+[codecarbon INFO @ 17:53:17] [setup] GPU Tracking...
+[codecarbon INFO @ 17:53:17] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 17:53:17] [setup] CPU Tracking...
+[codecarbon INFO @ 17:53:17] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 17:53:17] >>> Tracker's metadata:
+[codecarbon INFO @ 17:53:17]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 17:53:17]   Python version: 3.11.5
+[codecarbon INFO @ 17:53:17]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 17:53:17]   Available RAM : 120.000 GB
+[codecarbon INFO @ 17:53:17]   CPU count: 18
+[codecarbon INFO @ 17:53:17]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 17:53:17]   GPU count: 1
+[codecarbon INFO @ 17:53:17]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 17:53:20] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.88s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.86s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.83s/it]
+[codecarbon WARNING @ 18:02:51] Background scheduler didn't run for a long period (555s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 1 layers.
+Time used for 7b with max. 128 new tokens is 555.86 seconds (9.3 minutes).
+Average of 3.43 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.028769542464168338 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:03:15] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:03:15] [setup] RAM Tracking...
+[codecarbon INFO @ 18:03:17] [setup] GPU Tracking...
+[codecarbon INFO @ 18:03:17] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:03:17] [setup] CPU Tracking...
+[codecarbon INFO @ 18:03:17] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:03:17] >>> Tracker's metadata:
+[codecarbon INFO @ 18:03:17]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:03:17]   Python version: 3.11.5
+[codecarbon INFO @ 18:03:17]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:03:17]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:03:17]   CPU count: 18
+[codecarbon INFO @ 18:03:17]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:03:17]   GPU count: 1
+[codecarbon INFO @ 18:03:17]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:03:41] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.78it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.77it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.84it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.82it/s]
+[codecarbon WARNING @ 18:12:56] Background scheduler didn't run for a long period (543s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 2 layers.
+Time used for 7b with max. 128 new tokens is 543.88 seconds (9.1 minutes).
+Average of 3.36 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.027974916205342728 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:12:59] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:12:59] [setup] RAM Tracking...
+[codecarbon INFO @ 18:12:59] [setup] GPU Tracking...
+[codecarbon INFO @ 18:12:59] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:12:59] [setup] CPU Tracking...
+[codecarbon INFO @ 18:12:59] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:12:59] >>> Tracker's metadata:
+[codecarbon INFO @ 18:12:59]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:12:59]   Python version: 3.11.5
+[codecarbon INFO @ 18:12:59]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:12:59]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:12:59]   CPU count: 18
+[codecarbon INFO @ 18:12:59]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:12:59]   GPU count: 1
+[codecarbon INFO @ 18:12:59]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:13:02] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.77it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.77it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.83it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.81it/s]
+[codecarbon WARNING @ 18:21:30] Background scheduler didn't run for a long period (496s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 3 layers.
+Time used for 7b with max. 128 new tokens is 496.85 seconds (8.3 minutes).
+Average of 3.07 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.025305224719062647 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:21:56] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:21:56] [setup] RAM Tracking...
+[codecarbon INFO @ 18:21:57] [setup] GPU Tracking...
+[codecarbon INFO @ 18:21:57] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:21:57] [setup] CPU Tracking...
+[codecarbon INFO @ 18:21:57] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:21:57] >>> Tracker's metadata:
+[codecarbon INFO @ 18:21:57]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:21:57]   Python version: 3.11.5
+[codecarbon INFO @ 18:21:57]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:21:57]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:21:57]   CPU count: 18
+[codecarbon INFO @ 18:21:57]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:21:57]   GPU count: 1
+[codecarbon INFO @ 18:21:57]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:22:00] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.76it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.80it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.79it/s]
+[codecarbon WARNING @ 18:30:33] Background scheduler didn't run for a long period (501s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 4 layers.
+Time used for 7b with max. 128 new tokens is 501.74 seconds (8.4 minutes).
+Average of 3.1 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.025542180747047862 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:32:21] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:32:21] [setup] RAM Tracking...
+[codecarbon INFO @ 18:32:22] [setup] GPU Tracking...
+[codecarbon INFO @ 18:32:22] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:32:22] [setup] CPU Tracking...
+[codecarbon INFO @ 18:32:22] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:32:22] >>> Tracker's metadata:
+[codecarbon INFO @ 18:32:22]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:32:22]   Python version: 3.11.5
+[codecarbon INFO @ 18:32:22]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:32:22]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:32:22]   CPU count: 18
+[codecarbon INFO @ 18:32:22]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:32:22]   GPU count: 1
+[codecarbon INFO @ 18:32:22]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:32:25] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.73it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.75it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.81it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.79it/s]
+[codecarbon WARNING @ 18:41:18] Background scheduler didn't run for a long period (467s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 5 layers.
+Time used for 7b with max. 128 new tokens is 467.62 seconds (7.8 minutes).
+Average of 2.89 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.0237954265302051 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:41:43] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:41:43] [setup] RAM Tracking...
+[codecarbon INFO @ 18:41:43] [setup] GPU Tracking...
+[codecarbon INFO @ 18:41:43] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:41:43] [setup] CPU Tracking...
+[codecarbon INFO @ 18:41:43] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:41:43] >>> Tracker's metadata:
+[codecarbon INFO @ 18:41:43]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:41:43]   Python version: 3.11.5
+[codecarbon INFO @ 18:41:43]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:41:43]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:41:43]   CPU count: 18
+[codecarbon INFO @ 18:41:43]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:41:43]   GPU count: 1
+[codecarbon INFO @ 18:41:43]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:41:47] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.72it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.81it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.78it/s]
+[codecarbon WARNING @ 18:49:52] Background scheduler didn't run for a long period (473s), results might be inaccurate
+
+Model loaded. Proceeding to generating samples with pruning the last 6 layers.
+Time used for 7b with max. 128 new tokens is 473.97 seconds (7.9 minutes).
+Average of 2.93 seconds per coding task.
+The approximated emissions for the task with 7b with max. 128 new tokens = 0.02405383402955345 kgs of C02.
+Data stored to csv.
+[codecarbon WARNING @ 18:51:55] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 18:51:55] [setup] RAM Tracking...
+[codecarbon INFO @ 18:51:58] [setup] GPU Tracking...
+[codecarbon INFO @ 18:51:58] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:51:58] [setup] CPU Tracking...
+[codecarbon INFO @ 18:51:58] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:51:58] >>> Tracker's metadata:
+[codecarbon INFO @ 18:51:58]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:51:58]   Python version: 3.11.5
+[codecarbon INFO @ 18:51:58]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 18:51:58]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:51:58]   CPU count: 18
+[codecarbon INFO @ 18:51:58]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:51:58]   GPU count: 1
+[codecarbon INFO @ 18:51:58]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 18:52:02] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.07s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  2.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.40s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 19:02:17] Background scheduler didn't run for a long period (599s), results might be inaccurate
+
+Phi-2 loaded. Proceeding to generating samples with pruning the last 1 layers.
+Time used for Phi2 with max. 128 new tokens is 599.9 seconds (10.0 minutes).
+Average of 3.7 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.02355944524403768 kgs of C02.
+Data stored to csv: energy_data/pruning/results_Phi2_128_minus_1.csv
+[codecarbon WARNING @ 19:02:32] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 19:02:32] [setup] RAM Tracking...
+[codecarbon INFO @ 19:02:33] [setup] GPU Tracking...
+[codecarbon INFO @ 19:02:33] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 19:02:33] [setup] CPU Tracking...
+[codecarbon INFO @ 19:02:33] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 19:02:33] >>> Tracker's metadata:
+[codecarbon INFO @ 19:02:33]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 19:02:33]   Python version: 3.11.5
+[codecarbon INFO @ 19:02:33]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 19:02:33]   Available RAM : 120.000 GB
+[codecarbon INFO @ 19:02:33]   CPU count: 18
+[codecarbon INFO @ 19:02:33]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 19:02:33]   GPU count: 1
+[codecarbon INFO @ 19:02:33]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 19:02:39] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 19:12:02] Background scheduler didn't run for a long period (554s), results might be inaccurate
+
+Phi-2 loaded. Proceeding to generating samples with pruning the last 2 layers.
+Time used for Phi2 with max. 128 new tokens is 554.45 seconds (9.2 minutes).
+Average of 3.42 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.021797360531739866 kgs of C02.
+Data stored to csv: energy_data/pruning/results_Phi2_128_minus_2.csv
+[codecarbon WARNING @ 19:12:10] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 19:12:10] [setup] RAM Tracking...
+[codecarbon INFO @ 19:12:11] [setup] GPU Tracking...
+[codecarbon INFO @ 19:12:11] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 19:12:11] [setup] CPU Tracking...
+[codecarbon INFO @ 19:12:11] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 19:12:11] >>> Tracker's metadata:
+[codecarbon INFO @ 19:12:11]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 19:12:11]   Python version: 3.11.5
+[codecarbon INFO @ 19:12:11]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 19:12:11]   Available RAM : 120.000 GB
+[codecarbon INFO @ 19:12:11]   CPU count: 18
+[codecarbon INFO @ 19:12:11]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 19:12:11]   GPU count: 1
+[codecarbon INFO @ 19:12:11]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 19:12:14] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 19:20:13] Background scheduler didn't run for a long period (470s), results might be inaccurate
+
+Phi-2 loaded. Proceeding to generating samples with pruning the last 3 layers.
+Time used for Phi2 with max. 128 new tokens is 470.33 seconds (7.8 minutes).
+Average of 2.9 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.018455158795573468 kgs of C02.
+Data stored to csv: energy_data/pruning/results_Phi2_128_minus_3.csv
+[codecarbon WARNING @ 19:20:28] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 19:20:28] [setup] RAM Tracking...
+[codecarbon INFO @ 19:20:29] [setup] GPU Tracking...
+[codecarbon INFO @ 19:20:29] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 19:20:29] [setup] CPU Tracking...
+[codecarbon INFO @ 19:20:29] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 19:20:29] >>> Tracker's metadata:
+[codecarbon INFO @ 19:20:29]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 19:20:29]   Python version: 3.11.5
+[codecarbon INFO @ 19:20:29]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 19:20:29]   Available RAM : 120.000 GB
+[codecarbon INFO @ 19:20:29]   CPU count: 18
+[codecarbon INFO @ 19:20:29]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 19:20:29]   GPU count: 1
+[codecarbon INFO @ 19:20:29]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 19:20:32] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 19:29:08] Background scheduler didn't run for a long period (507s), results might be inaccurate
+
+Phi-2 loaded. Proceeding to generating samples with pruning the last 4 layers.
+Time used for Phi2 with max. 128 new tokens is 507.46 seconds (8.5 minutes).
+Average of 3.13 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.019939440337465232 kgs of C02.
+Data stored to csv: energy_data/pruning/results_Phi2_128_minus_4.csv
+[codecarbon WARNING @ 19:29:48] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 19:29:48] [setup] RAM Tracking...
+[codecarbon INFO @ 19:29:49] [setup] GPU Tracking...
+[codecarbon INFO @ 19:29:49] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 19:29:49] [setup] CPU Tracking...
+[codecarbon INFO @ 19:29:49] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 19:29:49] >>> Tracker's metadata:
+[codecarbon INFO @ 19:29:49]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 19:29:49]   Python version: 3.11.5
+[codecarbon INFO @ 19:29:49]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 19:29:49]   Available RAM : 120.000 GB
+[codecarbon INFO @ 19:29:49]   CPU count: 18
+[codecarbon INFO @ 19:29:49]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 19:29:49]   GPU count: 1
+[codecarbon INFO @ 19:29:49]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 19:29:52] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 19:38:27] Background scheduler didn't run for a long period (505s), results might be inaccurate
+
+Phi-2 loaded. Proceeding to generating samples with pruning the last 5 layers.
+Time used for Phi2 with max. 128 new tokens is 505.57 seconds (8.4 minutes).
+Average of 3.12 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.019861632778405344 kgs of C02.
+Data stored to csv: energy_data/pruning/results_Phi2_128_minus_5.csv
+[codecarbon WARNING @ 19:39:15] Invalid gpu_ids format. Expected a string or a list of ints.
+[codecarbon INFO @ 19:39:15] [setup] RAM Tracking...
+[codecarbon INFO @ 19:39:16] [setup] GPU Tracking...
+[codecarbon INFO @ 19:39:16] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 19:39:16] [setup] CPU Tracking...
+[codecarbon INFO @ 19:39:16] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 19:39:16] >>> Tracker's metadata:
+[codecarbon INFO @ 19:39:16]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 19:39:16]   Python version: 3.11.5
+[codecarbon INFO @ 19:39:16]   CodeCarbon version: 2.4.2
+[codecarbon INFO @ 19:39:16]   Available RAM : 120.000 GB
+[codecarbon INFO @ 19:39:16]   CPU count: 18
+[codecarbon INFO @ 19:39:16]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 19:39:16]   GPU count: 1
+[codecarbon INFO @ 19:39:16]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+[codecarbon WARNING @ 19:39:19] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.37s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 19:47:21] Background scheduler didn't run for a long period (472s), results might be inaccurate
+
+Phi-2 loaded. Proceeding to generating samples with pruning the last 6 layers.
+Time used for Phi2 with max. 128 new tokens is 472.84 seconds (7.9 minutes).
+Average of 2.92 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.018546284360772946 kgs of C02.
+Data stored to csv: energy_data/pruning/results_Phi2_128_minus_6.csv
+
+JOB STATISTICS
+==============
+Job ID: 6804276
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 02:30:15
+CPU Efficiency: 5.24% of 1-23:45:54 core-walltime
+Job Wall-clock time: 02:39:13
+Memory Utilized: 1.99 GB
+Memory Efficiency: 1.66% of 120.00 GB

@@ -1,0 +1,125 @@
+
+Generate samples for Phi2...
+
+[codecarbon INFO @ 11:18:29] [setup] RAM Tracking...
+[codecarbon INFO @ 11:18:32] [setup] GPU Tracking...
+[codecarbon INFO @ 11:18:33] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 11:18:33] [setup] CPU Tracking...
+[codecarbon INFO @ 11:18:33] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 11:18:33] >>> Tracker's metadata:
+[codecarbon INFO @ 11:18:33]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 11:18:33]   Python version: 3.11.5
+[codecarbon INFO @ 11:18:33]   CodeCarbon version: 2.3.5
+[codecarbon INFO @ 11:18:33]   Available RAM : 120.000 GB
+[codecarbon INFO @ 11:18:33]   CPU count: 18
+[codecarbon INFO @ 11:18:33]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 11:18:33]   GPU count: 1
+[codecarbon INFO @ 11:18:33]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:14<00:14, 14.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  7.19s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.36s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 11:19:21] Background scheduler didn't run for a long period (19s), results might be inaccurate
+Phi-2 loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 11:44:42] Background scheduler didn't run for a long period (1521s), results might be inaccurate
+Time used for Phi2 with max. 128 new tokens is 1521.05 seconds (25.4 minutes).
+Average of 9.39 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.04410503586369301 kgs of C02.
+
+Emissions : 0.5241000546217448 g CO₂ for task Load model
+	Energy : CPU 0.86 Wh. GPU 0.381 Wh. RAM0.238Wh.
+Total: 1.479 Wh.
+	Power CPU:162W GPU:72W RAM45W during 19.05641770362854 seconds.
+
+Emissions : 43.58003248797737 g CO₂ for task Inference
+	Energy : CPU 67.995 Wh. GPU 35.992 Wh. RAM19.013Wh.
+Total: 123.0 Wh.
+	Power CPU:161W GPU:85W RAM45W during 1521.0506134033203 seconds.
+[codecarbon INFO @ 11:45:15] [setup] RAM Tracking...
+[codecarbon INFO @ 11:45:16] [setup] GPU Tracking...
+[codecarbon INFO @ 11:45:16] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 11:45:16] [setup] CPU Tracking...
+[codecarbon INFO @ 11:45:16] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 11:45:16] >>> Tracker's metadata:
+[codecarbon INFO @ 11:45:16]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 11:45:16]   Python version: 3.11.5
+[codecarbon INFO @ 11:45:16]   CodeCarbon version: 2.3.5
+[codecarbon INFO @ 11:45:16]   Available RAM : 120.000 GB
+[codecarbon INFO @ 11:45:16]   CPU count: 18
+[codecarbon INFO @ 11:45:16]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 11:45:16]   GPU count: 1
+[codecarbon INFO @ 11:45:16]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  2.64s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.06s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[codecarbon WARNING @ 11:45:35] Background scheduler didn't run for a long period (10s), results might be inaccurate
+Phi-2 loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 12:32:52] Background scheduler didn't run for a long period (2837s), results might be inaccurate
+Time used for Phi2 with max. 256 new tokens is 2837.62 seconds (47.3 minutes).
+Average of 17.52 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 256 new tokens = 0.08154885445840238 kgs of C02.
+
+Emissions : 0.2859142593433256 g CO₂ for task Load model
+	Energy : CPU 0.48 Wh. GPU 0.195 Wh. RAM0.132Wh.
+Total: 0.807 Wh.
+	Power CPU:164W GPU:67W RAM45W during 10.523267030715942 seconds.
+
+Emissions : 81.26285718803871 g CO₂ for task Inference
+	Energy : CPU 126.603 Wh. GPU 67.283 Wh. RAM35.47Wh.
+Total: 229.356 Wh.
+	Power CPU:161W GPU:85W RAM45W during 2837.615882873535 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+5it [00:00, 49.03it/s]13it [00:00, 66.25it/s]21it [00:00, 68.04it/s]30it [00:00, 75.61it/s]39it [00:00, 75.93it/s]47it [00:00, 74.43it/s]56it [00:00, 76.19it/s]65it [00:00, 78.38it/s]73it [00:00, 76.15it/s]81it [00:01, 76.93it/s]89it [00:01, 76.22it/s]97it [00:01, 72.80it/s]106it [00:01, 76.36it/s]115it [00:01, 78.70it/s]123it [00:01, 76.52it/s]131it [00:01, 72.03it/s]140it [00:01, 74.95it/s]148it [00:02, 69.92it/s]157it [00:02, 74.68it/s]164it [00:02, 74.56it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_Phi2_128-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+4it [00:00, 37.92it/s]10it [00:00, 43.07it/s]15it [00:00, 41.67it/s]20it [00:00, 42.30it/s]25it [00:00, 40.15it/s]30it [00:00, 38.10it/s]34it [00:00, 36.64it/s]39it [00:01, 36.11it/s]44it [00:01, 37.99it/s]48it [00:01, 35.85it/s]52it [00:01, 36.71it/s]56it [00:01, 35.61it/s]61it [00:01, 37.98it/s]66it [00:01, 40.38it/s]71it [00:01, 38.14it/s]75it [00:01, 38.10it/s]79it [00:02, 37.56it/s]83it [00:02, 36.40it/s]88it [00:02, 36.42it/s]93it [00:02, 29.43it/s]97it [00:02, 29.28it/s]102it [00:02, 33.68it/s]106it [00:02, 31.71it/s]111it [00:03, 33.93it/s]116it [00:03, 33.87it/s]121it [00:03, 36.62it/s]125it [00:03, 37.19it/s]129it [00:03, 36.22it/s]133it [00:03, 35.81it/s]137it [00:03, 36.82it/s]141it [00:03, 35.93it/s]145it [00:04, 25.75it/s]150it [00:04, 30.28it/s]155it [00:04, 33.07it/s]159it [00:04, 33.65it/s]164it [00:04, 36.99it/s]164it [00:04, 35.58it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_Phi2_256-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating Phi2, 128 tokens. First sanitized then raw.
+
+Load from previous results from samples/samples_Phi2_128-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.451
+humaneval+ (base + extra tests)
+pass@1:	0.409
+Load from previous results from samples/samples_Phi2_128_eval_results.json
+humaneval (base tests)
+pass@1:	0.049
+humaneval+ (base + extra tests)
+pass@1:	0.043
+
+Evaluating Phi2, 256 tokens. First sanitized then raw.
+
+Load from previous results from samples/samples_Phi2_256-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.482
+humaneval+ (base + extra tests)
+pass@1:	0.439
+Load from previous results from samples/samples_Phi2_256_eval_results.json
+humaneval (base tests)
+pass@1:	0.037
+humaneval+ (base + extra tests)
+pass@1:	0.037
+
+JOB STATISTICS
+==============
+Job ID: 6371069
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 01:12:51
+CPU Efficiency: 5.25% of 23:06:54 core-walltime
+Job Wall-clock time: 01:17:03
+Memory Utilized: 4.49 GB
+Memory Efficiency: 3.74% of 120.00 GB

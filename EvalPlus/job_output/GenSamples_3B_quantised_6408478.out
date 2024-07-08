@@ -1,0 +1,136 @@
+
+Generate samples for 3b quantised...
+
+[codecarbon WARNING @ 00:04:51] Background scheduler didn't run for a long period (11s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 00:19:49] Background scheduler didn't run for a long period (897s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 897.87 seconds (15.0 minutes).
+Average of 5.54 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.03473525919033838 kgs of C02.
+
+Emissions : 0.428801114415924 g CO₂ for task Load model
+	Energy : CPU 0.857 Wh. GPU 0.206 Wh. RAM0.147Wh.
+Total: 1.21 Wh.
+	Power CPU:262W GPU:63W RAM45W during 11.770845890045166 seconds.
+
+Emissions : 34.30636990522885 g CO₂ for task Inference
+	Energy : CPU 62.671 Wh. GPU 22.931 Wh. RAM11.223Wh.
+Total: 96.826 Wh.
+	Power CPU:251W GPU:92W RAM45W during 897.8674190044403 seconds.
+[codecarbon WARNING @ 00:20:10] Background scheduler didn't run for a long period (4s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 01:15:29] Background scheduler didn't run for a long period (3318s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3318.79 seconds (55.3 minutes).
+Average of 20.49 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.07084217894152044 kgs of C02.
+
+Emissions : 0.16630971789386245 g CO₂ for task Load model
+	Energy : CPU 0.333 Wh. GPU 0.079 Wh. RAM0.057Wh.
+Total: 0.469 Wh.
+	Power CPU:262W GPU:62W RAM45W during 4.566149711608887 seconds.
+
+Emissions : 70.67576510589086 g CO₂ for task Inference
+	Energy : CPU 85.381 Wh. GPU 72.609 Wh. RAM41.485Wh.
+Total: 199.475 Wh.
+	Power CPU:93W GPU:79W RAM45W during 3318.786985397339 seconds.
+[codecarbon WARNING @ 01:16:13] Background scheduler didn't run for a long period (4s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 01:45:41] Background scheduler didn't run for a long period (1768s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 256 new tokens is 1768.07 seconds (29.5 minutes).
+Average of 10.91 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 256 new tokens = 0.06753436187914164 kgs of C02.
+
+Emissions : 0.16484234736710987 g CO₂ for task Load model
+	Energy : CPU 0.329 Wh. GPU 0.079 Wh. RAM0.057Wh.
+Total: 0.465 Wh.
+	Power CPU:261W GPU:63W RAM45W during 4.545060634613037 seconds.
+
+Emissions : 67.36942855812252 g CO₂ for task Inference
+	Energy : CPU 122.948 Wh. GPU 45.094 Wh. RAM22.101Wh.
+Total: 190.143 Wh.
+	Power CPU:250W GPU:92W RAM45W during 1768.0693047046661 seconds.
+[codecarbon WARNING @ 01:45:52] Background scheduler didn't run for a long period (4s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 03:36:41] Background scheduler didn't run for a long period (6648s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 256 new tokens is 6648.28 seconds (110.8 minutes).
+Average of 41.04 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 256 new tokens = 0.09002572476049936 kgs of C02.
+
+Emissions : 0.16437248244097796 g CO₂ for task Load model
+	Energy : CPU 0.327 Wh. GPU 0.08 Wh. RAM0.056Wh.
+Total: 0.464 Wh.
+	Power CPU:261W GPU:64W RAM45W during 4.516926050186157 seconds.
+
+Emissions : 89.86126046262993 g CO₂ for task Inference
+	Energy : CPU 25.071 Wh. GPU 145.45 Wh. RAM83.103Wh.
+Total: 253.624 Wh.
+	Power CPU:14W GPU:79W RAM45W during 6648.278723478317 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+17it [00:00, 164.77it/s]34it [00:00, 165.40it/s]55it [00:00, 185.27it/s]75it [00:00, 190.73it/s]100it [00:00, 208.65it/s]123it [00:00, 213.52it/s]150it [00:00, 230.22it/s]164it [00:00, 210.65it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+11it [00:00, 89.30it/s]20it [00:00, 83.84it/s]29it [00:00, 76.18it/s]38it [00:00, 80.56it/s]47it [00:00, 83.31it/s]56it [00:00, 72.42it/s]64it [00:00, 72.58it/s]72it [00:00, 74.22it/s]84it [00:01, 84.07it/s]94it [00:01, 87.57it/s]106it [00:01, 96.12it/s]116it [00:01, 90.30it/s]128it [00:01, 96.69it/s]139it [00:01, 99.95it/s]152it [00:01, 107.29it/s]163it [00:01, 101.30it/s]164it [00:01, 89.71it/s] 
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_256_4bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+18it [00:00, 168.57it/s]40it [00:00, 194.17it/s]62it [00:00, 199.57it/s]85it [00:00, 207.58it/s]109it [00:00, 218.37it/s]131it [00:00, 217.78it/s]154it [00:00, 220.36it/s]164it [00:00, 211.50it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+8it [00:00, 77.08it/s]16it [00:00, 74.62it/s]25it [00:00, 79.93it/s]34it [00:00, 82.98it/s]45it [00:00, 88.60it/s]54it [00:00, 78.04it/s]62it [00:00, 77.88it/s]71it [00:00, 77.04it/s]84it [00:01, 87.77it/s]93it [00:01, 86.81it/s]104it [00:01, 92.46it/s]116it [00:01, 94.69it/s]126it [00:01, 91.40it/s]136it [00:01, 87.18it/s]146it [00:01, 89.30it/s]155it [00:01, 89.45it/s]164it [00:01, 85.92it/s]164it [00:01, 85.69it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_256_8bit-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 3b, 128 tokens. First 4bit and then 8bit.
+
+Load from previous results from samples_quantised/samples_3b_128_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.061
+Load from previous results from samples_quantised/samples_3b_128_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.067
+
+Evaluating 3b, 256 tokens. First 4bit and then 8bit.
+
+Load from previous results from samples_quantised/samples_3b_256_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.122
+humaneval+ (base + extra tests)
+pass@1:	0.104
+Load from previous results from samples_quantised/samples_3b_256_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.110
+humaneval+ (base + extra tests)
+pass@1:	0.091
+
+JOB STATISTICS
+==============
+Job ID: 6408478
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 03:32:11
+CPU Efficiency: 5.55% of 2-15:45:36 core-walltime
+Job Wall-clock time: 03:32:32
+Memory Utilized: 2.56 GB
+Memory Efficiency: 2.14% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

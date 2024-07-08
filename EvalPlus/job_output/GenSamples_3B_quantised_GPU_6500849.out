@@ -1,0 +1,107 @@
+CHECK IF WORKS NOW WITH GPU, COMPARE WITH OVERLEAF!
+Generate samples for 3b quantised...
+
+cuda:0
+[codecarbon WARNING @ 19:32:07] Background scheduler didn't run for a long period (12s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/bitsandbytes/nn/modules.py:426: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(
+[codecarbon WARNING @ 19:46:57] Background scheduler didn't run for a long period (889s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 4bit with max. 128 new tokens is 889.98 seconds (14.8 minutes).
+Average of 5.49 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 4bit with max. 128 new tokens = 0.0351361507904824 kgs of C02.
+
+Emissions : 0.4538643648822348 g CO₂ for task Load model
+	Energy : CPU 0.917 Wh. GPU 0.209 Wh. RAM0.155Wh.
+Total: 1.281 Wh.
+	Power CPU:267W GPU:61W RAM45W during 12.374840497970581 seconds.
+
+Emissions : 34.6821725591084 g CO₂ for task Inference
+	Energy : CPU 64.075 Wh. GPU 22.687 Wh. RAM11.125Wh.
+Total: 97.887 Wh.
+	Power CPU:259W GPU:92W RAM45W during 889.9845986366272 seconds.
+	
+Model is stored on:  cuda:0
+[codecarbon WARNING @ 19:47:10] Background scheduler didn't run for a long period (4s), results might be inaccurate
+Model bigcode/starcoder2-3b loaded. Proceeding to generating samples.
+[codecarbon WARNING @ 20:41:33] Background scheduler didn't run for a long period (3263s), results might be inaccurate
+Time used for starcoder2-3b, quantised as 8bit with max. 128 new tokens is 3263.24 seconds (54.4 minutes).
+Average of 20.14 seconds per coding task.
+The approximated emissions for the task with starcoder2-3b, quantised as 8bit with max. 128 new tokens = 0.0708596632754218 kgs of C02.
+
+Emissions : 0.16462718423770506 g CO₂ for task Load model
+	Energy : CPU 0.334 Wh. GPU 0.075 Wh. RAM0.055Wh.
+Total: 0.465 Wh.
+	Power CPU:272W GPU:61W RAM45W during 4.429672479629517 seconds.
+
+Emissions : 70.6949238904875 g CO₂ for task Inference
+	Energy : CPU 89.241 Wh. GPU 69.497 Wh. RAM40.79Wh.
+Total: 199.529 Wh.
+	Power CPU:98W GPU:77W RAM45W during 3263.237713098526 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+
+15it [00:00, 148.21it/s]
+33it [00:00, 156.30it/s]
+55it [00:00, 182.13it/s]
+76it [00:00, 190.96it/s]
+100it [00:00, 207.95it/s]
+124it [00:00, 218.16it/s]
+151it [00:00, 232.23it/s]
+164it [00:00, 209.37it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_4bit-sanitized.jsonl
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+
+18it [00:00, 171.52it/s]
+40it [00:00, 196.14it/s]
+62it [00:00, 202.28it/s]
+85it [00:00, 210.26it/s]
+110it [00:00, 219.47it/s]
+133it [00:00, 222.18it/s]
+157it [00:00, 227.00it/s]
+164it [00:00, 214.74it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_quantised/samples_3b_128_8bit-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating 3b, 128 tokens. First 4bit and then 8bit.
+
+Load from previous results from samples_quantised/samples_3b_128_4bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.061
+humaneval+ (base + extra tests)
+pass@1:	0.061
+Load from previous results from samples_quantised/samples_3b_128_8bit-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.067
+
+Evaluating 3b, 256 tokens. First 4bit and then 8bit.
+
+
+JOB STATISTICS
+==============
+Job ID: 6500849
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 01:10:26
+CPU Efficiency: 5.54% of 21:10:30 core-walltime
+Job Wall-clock time: 01:10:35
+Memory Utilized: 2.49 GB
+Memory Efficiency: 2.08% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

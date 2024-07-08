@@ -1,0 +1,136 @@
+Without parallelisation.
+Now using for loops in bash script.
+Generate samples for Phi2...
+Testing index 1 to 6.
+
+[codecarbon INFO @ 18:17:08] [setup] RAM Tracking...
+[codecarbon INFO @ 18:17:09] [setup] GPU Tracking...
+[codecarbon INFO @ 18:17:09] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 18:17:09] [setup] CPU Tracking...
+[codecarbon INFO @ 18:17:09] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 18:17:09] >>> Tracker's metadata:
+[codecarbon INFO @ 18:17:09]   Platform system: Linux-4.18.0-372.80.1.el8_6.x86_64-x86_64-with-glibc2.28
+[codecarbon INFO @ 18:17:09]   Python version: 3.11.5
+[codecarbon INFO @ 18:17:09]   CodeCarbon version: 2.3.5
+[codecarbon INFO @ 18:17:09]   Available RAM : 120.000 GB
+[codecarbon INFO @ 18:17:09]   CPU count: 18
+[codecarbon INFO @ 18:17:09]   CPU model: Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+[codecarbon INFO @ 18:17:09]   GPU count: 1
+[codecarbon INFO @ 18:17:09]   GPU model: 1 x NVIDIA A100-SXM4-40GB
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.10s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.60s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+Phi-2 loaded. Proceeding to generating samples with pruning the last 6 layers.
+[codecarbon WARNING @ 18:25:25] Background scheduler didn't run for a long period (476s), results might be inaccurate
+Time used for Phi2 with max. 128 new tokens is 476.84 seconds (7.9 minutes).
+Average of 2.94 seconds per coding task.
+The approximated emissions for the task with Phi2 with max. 128 new tokens = 0.020170882966291548 kgs of C02.
+
+Emissions : 20.169839489795443 g CO₂ for task Inference
+	Energy : CPU 38.038 Wh. GPU 12.929 Wh. RAM5.96Wh.
+Total: 56.927 Wh.
+	Power CPU:287W GPU:98W RAM45W during 476.8377707004547 seconds.
+
+Samples generated.
+Proceeding to sanitizing..
+
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+13it [00:00, 122.45it/s]33it [00:00, 161.83it/s]51it [00:00, 163.83it/s]72it [00:00, 178.31it/s]92it [00:00, 185.62it/s]111it [00:00, 176.52it/s]129it [00:00, 175.54it/s]149it [00:00, 180.85it/s]164it [00:00, 177.17it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_Phi2_128_1-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+14it [00:00, 136.56it/s]35it [00:00, 178.35it/s]53it [00:00, 168.93it/s]74it [00:00, 184.48it/s]94it [00:00, 188.33it/s]113it [00:00, 188.74it/s]132it [00:00, 175.38it/s]153it [00:00, 174.79it/s]164it [00:00, 178.40it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_Phi2_128_2-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+25it [00:00, 249.14it/s]50it [00:00, 227.00it/s]73it [00:00, 214.82it/s]97it [00:00, 219.41it/s]120it [00:00, 218.77it/s]143it [00:00, 220.57it/s]164it [00:00, 217.95it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_Phi2_128_3-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+25it [00:00, 249.25it/s]50it [00:00, 247.29it/s]75it [00:00, 228.37it/s]99it [00:00, 232.20it/s]124it [00:00, 235.66it/s]153it [00:00, 252.78it/s]164it [00:00, 245.75it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_Phi2_128_4-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+29it [00:00, 287.58it/s]58it [00:00, 238.36it/s]83it [00:00, 232.11it/s]107it [00:00, 230.31it/s]131it [00:00, 205.58it/s]158it [00:00, 223.45it/s]164it [00:00, 224.92it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_Phi2_128_5-sanitized.jsonl
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+18it [00:00, 177.34it/s]36it [00:00, 168.52it/s]53it [00:00, 155.28it/s]69it [00:00, 132.88it/s]83it [00:00, 123.13it/s]99it [00:00, 132.76it/s]113it [00:00, 131.26it/s]129it [00:00, 133.13it/s]143it [00:01, 128.83it/s]157it [00:01, 131.74it/s]164it [00:01, 134.16it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples_decode/samples_Phi2_128_6-sanitized.jsonl
+
+Samples santized.
+Proceeding to evaluation..
+
+
+Evaluating Phi2, 128 tokens, 1 layers removed.
+
+Load from previous results from samples_decode/samples_Phi2_128_1-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.439
+humaneval+ (base + extra tests)
+pass@1:	0.378
+
+Evaluating Phi2, 128 tokens, 2 layers removed.
+
+Load from previous results from samples_decode/samples_Phi2_128_2-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.323
+humaneval+ (base + extra tests)
+pass@1:	0.299
+
+Evaluating Phi2, 128 tokens, 3 layers removed.
+
+Load from previous results from samples_decode/samples_Phi2_128_3-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.287
+humaneval+ (base + extra tests)
+pass@1:	0.256
+
+Evaluating Phi2, 128 tokens, 4 layers removed.
+
+Load from ground-truth from /home/pdereus/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+0it [00:00, ?it/s]1it [00:00,  5.03it/s]164it [00:00, 705.99it/s]
+  0%|          | 0/164 [00:00<?, ?it/s]  9%|▉         | 15/164 [00:00<00:01, 118.70it/s] 16%|█▋        | 27/164 [00:00<00:01, 80.25it/s]  24%|██▍       | 40/164 [00:00<00:01, 94.74it/s] 39%|███▉      | 64/164 [00:00<00:00, 129.71it/s] 52%|█████▏    | 86/164 [00:00<00:00, 155.57it/s] 63%|██████▎   | 103/164 [00:01<00:00, 79.83it/s] 78%|███████▊  | 128/164 [00:01<00:00, 104.89it/s] 96%|█████████▋| 158/164 [00:01<00:00, 141.56it/s]100%|██████████| 164/164 [00:02<00:00, 71.22it/s] 
+humaneval (base tests)
+pass@1:	0.159
+humaneval+ (base + extra tests)
+pass@1:	0.140
+
+Evaluating Phi2, 128 tokens, 5 layers removed.
+
+Load from previous results from samples_decode/samples_Phi2_128_5-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.067
+humaneval+ (base + extra tests)
+pass@1:	0.067
+
+Evaluating Phi2, 128 tokens, 6 layers removed.
+
+Load from previous results from samples_decode/samples_Phi2_128_6-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.000
+humaneval+ (base + extra tests)
+pass@1:	0.000
+
+JOB STATISTICS
+==============
+Job ID: 6464001
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:08:32
+CPU Efficiency: 4.47% of 03:10:48 core-walltime
+Job Wall-clock time: 00:10:36
+Memory Utilized: 1.08 GB
+Memory Efficiency: 0.90% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

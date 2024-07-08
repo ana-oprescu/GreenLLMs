@@ -1,0 +1,125 @@
+128 tokens - Iteration 1 out of 5
+
+[codecarbon WARNING @ 16:26:11] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.16s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.06s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.08s/it]
+[codecarbon WARNING @ 16:36:06] Background scheduler didn't run for a long period (579s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 128 new tokens is 579.23 seconds (9.7 minutes).
+Average of 3.58 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 128 new tokens = 0.02932857651748431 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 2 out of 5
+
+[codecarbon WARNING @ 16:36:10] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.67it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.76it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.73it/s]
+[codecarbon WARNING @ 16:46:04] Background scheduler didn't run for a long period (580s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 128 new tokens is 580.31 seconds (9.7 minutes).
+Average of 3.58 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 128 new tokens = 0.02938401657353943 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 3 out of 5
+
+[codecarbon WARNING @ 16:46:14] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.64it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.72it/s]
+[codecarbon WARNING @ 16:56:04] Background scheduler didn't run for a long period (578s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 128 new tokens is 578.45 seconds (9.6 minutes).
+Average of 3.57 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 128 new tokens = 0.029315231656653677 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 4 out of 5
+
+[codecarbon WARNING @ 16:56:53] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.68it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.77it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.75it/s]
+[codecarbon WARNING @ 17:07:29] Background scheduler didn't run for a long period (580s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 128 new tokens is 580.32 seconds (9.7 minutes).
+Average of 3.58 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 128 new tokens = 0.02938506500380584 kgs of C02.
+Data stored to csv.
+128 tokens - Iteration 5 out of 5
+
+[codecarbon WARNING @ 17:07:33] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.65it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.76it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.74it/s]
+[codecarbon WARNING @ 17:17:21] Background scheduler didn't run for a long period (578s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 128 new tokens is 578.13 seconds (9.6 minutes).
+Average of 3.57 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 128 new tokens = 0.029311144775840233 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 1 out of 5
+
+[codecarbon WARNING @ 17:17:25] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.65it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.72it/s]
+[codecarbon WARNING @ 17:36:49] Background scheduler didn't run for a long period (1152s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 256 new tokens is 1152.2 seconds (19.2 minutes).
+Average of 7.11 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 256 new tokens = 0.05916708259922449 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 2 out of 5
+
+[codecarbon WARNING @ 17:37:20] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.60it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.66it/s]
+[codecarbon WARNING @ 17:56:56] Background scheduler didn't run for a long period (1151s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 256 new tokens is 1151.6 seconds (19.2 minutes).
+Average of 7.11 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 256 new tokens = 0.06013876222758559 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 3 out of 5
+
+[codecarbon WARNING @ 17:57:00] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.61it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.67it/s]
+[codecarbon WARNING @ 18:16:28] Background scheduler didn't run for a long period (1156s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 256 new tokens is 1156.66 seconds (19.3 minutes).
+Average of 7.14 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 256 new tokens = 0.06033817894289795 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 4 out of 5
+
+[codecarbon WARNING @ 18:16:43] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.61it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.69it/s]
+[codecarbon WARNING @ 18:36:07] Background scheduler didn't run for a long period (1152s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 256 new tokens is 1152.73 seconds (19.2 minutes).
+Average of 7.12 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 256 new tokens = 0.06019137784556499 kgs of C02.
+Data stored to csv.
+256 tokens - Iteration 5 out of 5
+
+[codecarbon WARNING @ 18:36:39] Invalid gpu_ids format. Expected a string or a list of ints.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.08it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.45it/s]
+[codecarbon WARNING @ 18:56:02] Background scheduler didn't run for a long period (1151s), results might be inaccurate
+Model bigcode/starcoder2-7b loaded. Proceeding to generating samples.
+Time used for starcoder2-7b, with max. 256 new tokens is 1151.51 seconds (19.2 minutes).
+Average of 7.11 seconds per coding task.
+The approximated emissions for the task with starcoder2-7b, with max. 256 new tokens = 0.06013246537870129 kgs of C02.
+Data stored to csv.
+0it [00:00, ?it/s]/home/pdereus/.conda/envs/thesis/lib/python3.11/site-packages/tree_sitter/__init__.py:36: FutureWarning: Language(path, name) is deprecated. Use Language(ptr, name) instead.
+  warn("{} is deprecated. Use {} instead.".format(old, new), FutureWarning)
+14it [00:00, 137.39it/s]36it [00:00, 185.55it/s]56it [00:00, 190.72it/s]80it [00:00, 207.29it/s]101it [00:00, 201.98it/s]122it [00:00, 204.24it/s]146it [00:00, 213.98it/s]164it [00:00, 204.16it/s]
+Sanitized 164 out of 164 files.
+Check the sanitized files at samples/samples_3b_128-sanitized.jsonl
+Load from previous results from samples/samples_3b_128-sanitized_eval_results.json
+humaneval (base tests)
+pass@1:	0.085
+humaneval+ (base + extra tests)
+pass@1:	0.079
+
+JOB STATISTICS
+==============
+Job ID: 6803982
+Cluster: snellius
+User/Group: pdereus/pdereus
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 02:28:54
+CPU Efficiency: 5.50% of 1-21:05:24 core-walltime
+Job Wall-clock time: 02:30:18
+Memory Utilized: 2.00 GB
+Memory Efficiency: 1.67% of 120.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
