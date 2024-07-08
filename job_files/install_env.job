@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=InstallEnv
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=12:00:00
+#SBATCH --output=slurm_out/InstallEnv_12hr_%A.out
+
+module purge
+module load 2023
+module load Anaconda3/2023.07-2
+
+cd ../
+
+echo -e "\n\nStarting to install conda environment..."
+conda env create -f job_files/conda_gpu.yml
+
+echo -e "\n\nActivating conda environment..."
+source activate thesis
+
+echo -e "\nCheck if env appears in list"
+conda env list
+echo -e "\nInstalling conda environment succesful!\nEnd of job."
