@@ -1,0 +1,67 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=4
+#SBATCH --job-name=Pythia
+#SBATCH --ntasks=1
+#SBATCH --time=04:45:00
+#SBATCH --output=./job_out/2800_4GPU_%A.out
+#SBATCH --ear=on
+#SBATCH --ear-policy=monitoring
+#SBATCH --ear-user-db=ear/Pythia
+
+echo -e 'Run Pythia2.8B on 4 GPUs for each 10k steps.\nTesting time configuration per step to determine result.\nBatchsize=2.\nLimit to 1000 samples.\n'
+# echo -e 'Run Pythia14M on 1 GPU for each 10k steps.\nTesting time configuration per step to determine result.\nBatchsize=512.\n'
+echo -e "Test if evaluator save fixes modulerror"
+
+module purge
+module load 2023
+module load Python/3.11.3-GCCcore-12.3.0
+module load cuDNN/8.9.2.26-CUDA-12.1.1
+module load PyTorch/2.1.2-foss-2023a-CUDA-12.1.1
+
+# Activate conda environments
+source activate thesis
+
+(cd ./lm-checkpoints && pip3 install --user ."[eval]")
+pip3 install --user "lm-checkpoints[eval]"
+
+# Clear CUDA cache before starting the task
+python -c "import torch; torch.cuda.empty_cache()"
+
+OUTPUT_DIR="./results"
+
+# code_x_glue
+# evaluate_checkpoints pythia --output $OUTPUT_DIR \
+#                         --size $SIZE --seed $SEED \
+#                         --step $STEPS \
+#                         --tasks code2text_python \
+#                         --device cuda \
+#                         --clean_cache \
+#                         --log_samples \
+#                         --batch_size $BATCHSIZE \
+#                         --skip_if_exists
+
+for STEP in 10000 20000 30000 40000 50000 60000 70000 80000 90000 100000 110000 120000 130000 140000
+do
+
+# delete all checkpoints to save disk space
+rm -r ~/.cache/huggingface/hub/models--EleutherAI--pythia-2.8b/
+
+lm_eval \
+    --model hf \
+    --model_args pretrained=EleutherAI/pythia-2.8b,revision=step$STEP,parallelize=True,trust_remote_code=True \
+    --tasks code2text_python \
+    --device cuda \
+    --batch_size 2 \
+    --limit 250 \
+    --output_path $OUTPUT_DIR/pythia-3b_$STEP
+done
+
+# lm_eval \
+#     --model hf \
+#     --model_args pretrained=bigcode/starcoder2-3b,trust_remote_code=True \
+#     --tasks code2text_python \
+#     --device cuda \
+#     --batch_size 1 \
+#     --output_path $OUTPUT_DIR/starcoder2-3b

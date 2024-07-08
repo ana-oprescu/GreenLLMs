@@ -4,3 +4,18 @@
 
 # login credentials & server files
 .sh
+
+# slurm files
+.out
+.job
+
+# folders
+job_files/
+emissions_log/
+emissions/
+Trash/
+gallary/
+
+# generated samples
+.jsonl
+.json
