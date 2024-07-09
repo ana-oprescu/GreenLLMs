@@ -1,7 +1,7 @@
-# Master Thesis
+# Master thesis
 This repository contains the code for my master thesis: Exploring energy consumption, inference time and accuracy in code Large Language Models. The thesis is available in [this GitHub repository](https://github.com/PepijndeReus/MasterThesis/blob/main/MScThesis_PepijndeReus.pdf). All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be raised via an issue in this repository or sent to [my e-mail](mailto:p.dereus@uva.nl).
 
-**Abstract** \ 
+**Abstract** \
 Next to a significant increase in users, AI also has an increasing energy consumption. Microsoft and Google reported 30.9%, respectively 48% more carbon emissions last year due to increased energy requirements for AI. To reduce the dangerous consequences of climate change, the Paris Agreement aims to limit global warming to 1.5 degrees by limiting carbon emissions. Apart from ChatGPT, Large Language Models (LLMs) are widely adopted in the programming community with plug-ins such as GitHub Copilot. As very little work describes the energy consumption of code LLMs during inference, we formulate the research question: how can we reduce the energy consumption of code LLMs to limit global warming? In this thesis, we aim to reduce the energy consumption of StarCoder2 models with minimal harm to accuracy by reducing training time, compressing weights via quantisation and pruning the last layers. Our experiments indicate that none of our experiments succeeds in reducing energy consumption without compromising accuracy. Nevertheless, we see possibilities and provide suggestions to optimise compressing weights by quantisation.
 
 ##  Structure of repository
