@@ -1,8 +1,42 @@
-# Master thesis
-This repository contains the code for my master thesis: Exploring energy consumption, inference time and accuracy in code Large Language Models. The thesis is available in [this GitHub repository](https://github.com/PepijndeReus/MasterThesis/blob/main/MScThesis_PepijndeReus.pdf). All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be raised via an issue in this repository or sent to [my e-mail](mailto:p.dereus@uva.nl).
+# An exploration of the effect of quantisation on energy consumption and inference time of Code Large Language Models
+This repository contains the code for my master thesis: Exploring energy consumption, inference time and accuracy in code Large Language Models. The pre-print is available [here](). All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be raised via an issue in this repository or sent to [my e-mail](mailto:p.dereus@uva.nl).
+This repository consists of three parts:
+1. [Background information on the paper](##-Background-information-on-the-paper)
+2. [Structure of this repository](##-Structure-of-repository)
+3. [Reproduction of the results](##-Reproducing-the-results)
 
 **Abstract** \
-Next to a significant increase in users, AI also has an increasing energy consumption. Microsoft and Google reported 30.9%, respectively 48% more carbon emissions last year due to increased energy requirements for AI. To reduce the dangerous consequences of climate change, the Paris Agreement aims to limit global warming to 1.5 degrees by limiting carbon emissions. Apart from ChatGPT, Large Language Models (LLMs) are widely adopted in the programming community with plug-ins such as GitHub Copilot. As very little work describes the energy consumption of code LLMs during inference, we formulate the research question: how can we reduce the energy consumption of code LLMs to limit global warming? In this thesis, we aim to reduce the energy consumption of StarCoder2 models with minimal harm to accuracy by reducing training time, compressing weights via quantisation and pruning the last layers. Our experiments indicate that none of our experiments succeeds in reducing energy consumption without compromising accuracy. Nevertheless, we see possibilities and provide suggestions to optimise compressing weights by quantisation.
+This study examines quantisation and pruning strategies to reduce energy consumption in code Large Language Models (LLMs) inference. Using StarCoder2, we observe increased energy demands with quantization due to lower throughput and some accuracy losses. Conversely, pruning reduces energy usage but impairs performance. The results highlight challenges and trade-offs in LLM model compression. We suggest future work on hardware-optimized quantization to enhance efficiency with minimal loss in accuracy.
+
+## Background information on the paper
+
+### StarCoder2 performance
+In the StarCoder2 paper, the authors report an average pass@1 of 31.7 on HumanEval and 27.4 on HumanEval+ for StarCoder2-3B. For StarCoder2-7B, the pass@1 scores are 35.4 and 29.9 respectively. Table II shows our pass@1 scores of the StarCoder2-3B \& StarCoder2-7B models with different limits to the tokens generated. Our results for StarCoder2-3B are thus 18.3 and 17 points lower for HumanEval and HumanEval+ respectively. For StarCoder2-7B our results are 27.5 points lower on HumanEval and 23.8 lower on HumanEval+. The authors report that the model predicts 128 new tokens for each prompt, which we increased to 256 resulting in 2.5 points increase on HumanEval+ for StarCoder2-3B and a 2.4 points increase on HumanEval+ for StarCoder2-7B. Further increasing the maximum amount of tokens to 512 did not lead to improvements compared to 256 tokens and therefore is left out. We reached out to the StarCoder2 team, providing our code in the attachment for comparison, asking what might caused this deviation but unfortunately never received a reply. To determine our framework's correctness, we also analysed Phi-2 on the HumanEval+ benchmark. We found that the pass@1 score for Phi-2 matched the reported score in the paper, these are available [here]().
+
+Finally, another reason why the pass@1 is rather low is that the StarCoder2 models are not instruction-tuned. Instruction-tuned models are optimised to follow instructions such as the HumanEval+ tasks. An example is ChatGPT, the GPT-3 model itself merely predicts the next token but ChatGPT has been instructed to ask questions and react to input to behave as a chatbot. In this case, the StarCoder2 authors report that they are at a disadvantage compared to other models which are instruction-tuned. Our results indicate that the model suffers from echoing the prompt and not providing code that answers the prompt. Though the instruction tuning partly explains the lower pass@1 score for related small models on HumanEval+, it does not explain why the results from the StarCoder2 paper are not reproducible. Table II shows us that StarCoder2-3B outperforms StarCoder2-7B on the HumanEval+ task by 4.2 points. This halving of the pass@1 is unexpected as in the paper StarCoder2-7B marginally outperforms StarCoder2-3B. Because the authors did not report hyperparameter settings, we cannot find the cause of this difference. With StarCoder2-7B about twice the size of StarCoder2-3B, we would expect a higher pass@1. However, where StarCoder2-3B is trained on the 17 most used programming languages, StarCoder2-7B is trained on 619 programming languages [Lozhkov (2024)](https://arxiv.org/pdf/2402.19173, it is plausible that the model predicted more irrelevant code.
+
+### Cache misses
+For 4-bit quantisation L1-misses increased by 75\%, L2-misses increased by 45\%. With 8-bit quantisation, L1-misses increased by 315\% and L2-misses by 435\%. We show these results in the Table below:
+
+
+|            | **4-bit L1 misses** | **4-bit L2 misses** | **8-bit L1 misses** | **8-bit L2 misses** |
+|------------|----------------------|----------------------|----------------------|----------------------|
+| **Run 1**  | 77%                 | 45%                 | 322%                | 428%                |
+| **Run 2**  | 77%                 | 50%                 | 315%                | 439%                |
+| **Run 3**  | 73%                 | 51%                 | 302%                | 437%                |
+| **Run 4**  | 75%                 | 47%                 | 316%                | 430%                |
+| **Run 5**  | 75%                 | 48%                 | 318%                | 442%                |
+| **Avg. increase** | **75%**       | **48%**             | **315%**            | **435%**            |
+
+*The increased L1 and L2 cache misses for each of the five runs in experiment 2 for StarCoder2-7B on 128 tokens.*
+
+
+
+### Pruning extended
+
+### Phi-2 performance
+
+
 
 ##  Structure of repository
 The repository has three folders:
