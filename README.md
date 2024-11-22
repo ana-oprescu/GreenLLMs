@@ -1,5 +1,5 @@
-# An exploration of the effect of quantisation on energy consumption and inference time of Code Large Language Models
-This repository contains the code for my master thesis: Exploring energy consumption, inference time and accuracy in code Large Language Models. The pre-print is available [here](). All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be raised via an issue in this repository or sent to [my e-mail](mailto:p.dereus@uva.nl).
+# An exploration of the effect of quantisation on energy consumption and inference time of StarCoder2
+This repository contains the code for our paper: An exploration of the effect of quantisation on energy consumption and inference time of StarCoder2. The pre-print is available [here](https://arxiv.org/abs/2411.12758). All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be raised via an issue in this repository or sent to [my e-mail](mailto:p.dereus@uva.nl).
 This repository consists of three parts:
 1. [Background information on the paper](##-Background-information-on-the-paper)
 2. [Structure of this repository](##-Structure-of-repository)
